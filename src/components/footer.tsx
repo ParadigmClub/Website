@@ -26,7 +26,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-lg leading-relaxed 0">
-            Paradigm established in 2011 is a tech club that aims to provide a platform for students to explore and learn about the latest technologies. We conduct workshops, hackathons, and events to help students develop their skills and knowledge in the field of technology. We also provide mentorship and guidance to students who are interested in pursuing a career in technology. Our goal is to create a community of tech enthusiasts who are passionate about learning and sharing their knowledge with others.
+              Paradigm established in 2011 is a tech club that aims to provide a platform for students to explore and learn about the latest technologies.   We also provide mentorship and guidance to students who are interested in pursuing a career in technology. Our goal is to create a community of tech enthusiasts who are passionate about learning and sharing their knowledge with others.
             </p>
           </div>
 

@@ -1,11 +1,11 @@
 import { Flag, Code,Palette, Globe,Aperture, Shield, Cpu,Speech, Database,Youtube, Smartphone, Zap, PenTool, Headphones } from 'lucide-react'
 
 const domains = [
-  { name: "Programming", icon: Code, description: "Engage in cybersecurity challenges and hone your hacking skills." },
+  { name: "Programming", icon: Code, description: "Programming & Development in general is what " },
   { name: "Web Development", icon: Globe, description: "Master the art of creating responsive and dynamic websites." },
   { name: "UI/UX Design", icon: PenTool, description: "Learn to protect systems, networks, and programs from digital attacks." },
   { name: "Video Editing", icon: Youtube  , description: "Explore the world of machine learning and intelligent systems." },
-  { name: "Group Discussion", icon: Speech, description: "Analyze and interpret complex data to solve real-world problems." },
+  { name: "Group Discussion", icon: Speech, description: "Analyze and interpret situations at hand to solve them in a panel discussion." },
   { name: "Quizzing", icon: Smartphone, description: "Create innovative applications for iOS and Android platforms." },
   { name: "Cryptic Hunts", icon: Zap, description: "Connect and control devices through internet-based systems." },
   { name: "Graphic Design", icon: Palette, description: "Design intuitive and visually appealing user interfaces." },

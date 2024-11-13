@@ -108,7 +108,7 @@ Founded in 2011 by a group of tech enthusiasts, Paradigm has been revived in 202
                     alt={achievement.title}
                     width={100}
                     height={100}
-                    className="mb-4 rounded"
+                    className="mb-4 rounded h-28 w-28 "
                   />
                   <h3 className="text-xl font-semibold mb-2 text-[#9AFF27]">{achievement.title}</h3>
                   <p className="mb-2 text-sm text-cyan-400">{achievement.date}</p>
@@ -230,7 +230,7 @@ const achievements = [
     title: "Overall Champions CODE2K24",
     date: "October 24",
     description: "Secured the rolling trophy for the first time at CODE2K24, the annual tech fest hosted by APJ School, Noida.",
-    image: "https://placehold.co/100x100"
+    image: "https://media.discordapp.net/attachments/853630541571162132/1306332189947990137/code_trophies.jpeg?ex=67364828&is=6734f6a8&hm=ded14c79da4a953932c763eb362d6dd4752d1ccf6748032f7fcace079311e57a&=&format=webp&width=328&height=437"
   },
   {
     title: "Overall Champions CODE2K24",
@@ -276,7 +276,7 @@ const teamMembers = [
     name: "Medhansh Kapoor",
     position: "President",
     bio: "Ski with my buddies",
-    image: "https://placehold.co/400x400",
+    image: "https://media.discordapp.net/attachments/853630541571162132/1306329545279803432/mesite.jpeg?ex=673645b2&is=6734f432&hm=696fb6049956cf97f2249a4f82339debec02e355955cbf08c5b67b26df760a9b&=&format=webp&width=437&height=437",
     github: "https://github.com/alexj",
     linkedin: "https://linkedin.com/in/alexj",
     twitter: "https://twitter.com/alexj"
@@ -285,7 +285,7 @@ const teamMembers = [
     name: "Ayaan Hashmi",
     position: "President",
     bio: "Coder by day and hacker by night",
-    image: "https://placehold.co/400x400",
+    image: "",
     github: "https://github.com/samlee",
     linkedin: "https://linkedin.com/in/samlee"
   },
@@ -342,7 +342,7 @@ const teamMembers = [
     name: "Sarah Thompson",
     position: "Head AI",
     bio: "Event planning extraordinaire, passionate about creating memorable tech gatherings.",
-    image: "https://placehold.co/400x400",
+    image: "https://cdn.discordapp.com/attachments/853630541571162132/1306331215116370011/ineshsite.jpeg?ex=67364740&is=6734f5c0&hm=3baa2553e23eb6073117d8127aed25fd43da660e40d1bb22300eddfed6bb7ae6&",
     linkedin: "https://linkedin.com/in/saraht",
     twitter: "https://twitter.com/saraht"
   },
@@ -366,7 +366,7 @@ const teamMembers = [
     name: "Michael Chen",
     position: "Member",
     bio: "",
-    image: "https://placehold.co/400x400",
+    image: "https://cdn.discordapp.com/attachments/853630541571162132/1306331215116370011/ineshsite.jpeg?ex=67364740&is=6734f5c0&hm=3baa2553e23eb6073117d8127aed25fd43da660e40d1bb22300eddfed6bb7ae6&",
     github: "https://github.com/michaelc",
     twitter: "https://twitter.com/michaelc"
   },
