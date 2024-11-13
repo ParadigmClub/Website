@@ -2,18 +2,21 @@ import { useState } from 'react'
 import { Users, Lightbulb, UserCheck, Book, Shield, Gift, Mail, Phone, MapPin, Github, Linkedin, Twitter } from 'lucide-react'
 
 export function Membership() {
-  const [activeSection, setActiveSection] = useState('what-we-do')
+  type SectionId = 'what-we-do' | 'expectations' | 'membership' | 'focus-fields' | 'code-of-conduct' | 'benefits';
 
-  const sections = [
+  const [activeSection, setActiveSection] = useState<SectionId>('what-we-do');
+
+  const sections: { id: SectionId; label: string; icon: React.ElementType }[] = [
     { id: 'what-we-do', label: 'What We Do', icon: Users },
     { id: 'expectations', label: 'Expectations', icon: Lightbulb },
     { id: 'membership', label: 'Membership', icon: UserCheck },
     { id: 'focus-fields', label: 'Focus Fields', icon: Book },
     { id: 'code-of-conduct', label: 'Code of Conduct', icon: Shield },
-    { id: 'benefits', label: 'Benefits', icon: Gift },
-  ]
+    { id: 'benefits', label: 'Benefits', icon: Gift }, ]
+  
+  const content: Record<SectionId, string> = {
 
-  const content = {
+ 
     'what-we-do': `At Paradigm Tech Club, we foster a community of tech enthusiasts, innovators, and problem-solvers. We organize workshops, hackathons, and collaborative projects to enhance your skills and keep you updated with the latest in technology.`,
     'expectations': `We expect our members to be passionate about technology, eager to learn, and willing to contribute to our community. Active participation in club activities, respect for fellow members, and a commitment to personal growth are key expectations.`,
     'membership': `Membership is open to all students and professionals interested in technology. We have a rolling application process, with interviews conducted quarterly. Prospective members should demonstrate enthusiasm, relevant skills or willingness to learn, and alignment with our club's values.`,

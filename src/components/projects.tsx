@@ -70,7 +70,7 @@ export function Projects() {
     project.tags.some(tag => tag.toLowerCase().includes(filter.toLowerCase()))
   )
 
-  const getIcon = (type) => {
+  const getIcon = (type: string) => {
     switch (type) {
       case 'github':
         return <Github className="w-6 h-6" />

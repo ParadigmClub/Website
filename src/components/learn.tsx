@@ -1,4 +1,4 @@
-import { Flag, Code,Palette, Globe,Aperture, Shield, Cpu,Speech, Database,Youtube, Smartphone, Zap, PenTool, Headphones } from 'lucide-react'
+import {  Code,Palette, Globe,Aperture,Speech, Youtube, Smartphone, Zap, PenTool, Headphones } from 'lucide-react'
 
 const domains = [
   { name: "Programming", icon: Code, description: "Programming & Development in general is what " },

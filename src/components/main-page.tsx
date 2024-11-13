@@ -187,7 +187,17 @@ Founded in 2011 by a group of tech enthusiasts, Paradigm has been revived in 202
   )
 }
 
-function TeamMemberCard({ member }) {
+interface Member {
+  name: string;
+  position: string;
+  bio: string;
+  image: string;
+  github?: string;
+  linkedin?: string;
+  twitter?: string;
+}
+
+function TeamMemberCard({ member }: { member: Member }) {
   return (
     <div className="bg-[#FCFCFC]/10 rounded-lg overflow-hidden flex">
       <div className="w-[35%]">
