@@ -26,7 +26,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-lg leading-relaxed 0">
-              Paradigm established in 2011 is a tech club that aims to provide a platform for students to explore and learn about the latest technologies.   We also provide mentorship and guidance to students who are interested in pursuing a career in technology. Our goal is to create a community of tech enthusiasts who are passionate about learning and sharing their knowledge with others.
+              PARADIGM established in 2011 is a tech club that aims to provide a platform for students to explore and learn about the latest technologies.   We also provide mentorship and guidance to students who are interested in pursuing a career in technology. Our goal is to create a community of tech enthusiasts who are passionate about learning and sharing their knowledge with others.
             </p>
           </div>
 
@@ -40,22 +40,6 @@ export default function Footer() {
                   Mayoor School Noida,<br />
                   Sector 126 Noida, Uttar Pradesh, India
                 </p>
-              </div>
-              <div className="space-y-3">
-                <div className="flex items-center space-x-4">
-                  <Phone className="flex-shrink-0 w-6 h-6" />
-                  <div>
-                    <p className="text-lg ">+91 98914 35310</p>
-                    <p className="text-sm ">(Mrs. Ranjana Bajaj - CS HOD)</p>
-                  </div>
-                </div>
-                <div className="flex items-center space-x-4">
-                  <Phone className="flex-shrink-0 w-6 h-6" />
-                  <div>
-                    <p className="text-[#FCFCFC]/80 text-lg">+91 97172 91341</p>
-                    <p className="text-sm ">(Medhansh Kapoor - President)</p>
-                  </div>
-                </div>
               </div>
               <div className="flex items-center space-x-4">
                 <Instagram className="flex-shrink-0 w-6 h-6" />
@@ -79,7 +63,7 @@ export default function Footer() {
         <div className="mt-20 pt-8 border-t border-[#FCFCFC]/10">
           <div className="flex flex-col items-center justify-between space-y-4 md:flex-row md:space-y-0">
             <p className="text-sm text-[#FCFCFC]/60">
-              © 2024 Paradigm Club | All rights reserved
+              © 2024 PARADIGM Club | All rights reserved
             </p>
             <div className="flex items-center space-x-2 text-sm text-[#FCFCFC]/60">
               <span>Website crafted by</span>

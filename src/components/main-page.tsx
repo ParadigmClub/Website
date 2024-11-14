@@ -30,7 +30,7 @@ export function MainPageComponent() {
         </div>
         <div className="z-10 mb-2 text-center">
          <h1 className="text-6xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-[#9AFF27] to-cyan-400 leading-relaxed">
-  Paradigm Tech Club
+  PARADIGM
 </h1>
        
       <div className="flex items-center justify-center h-20 mb-8">
@@ -75,11 +75,11 @@ export function MainPageComponent() {
             <div className="space-y-8 md:w-1/2">
               <h3 className="text-3xl font-semibold text-[#9AFF27] underline underline-offset-8 decoration-4">Who We Are</h3>
               <p className="text-xl leading-relaxed ">
-              Paradigm is a student-led tech club at Mayoor School Noida, dedicated to fostering innovation, creativity and collaboration in the tech community. We provide a platform for students to learn, build and share their projects, and connect with like-minded individuals who share a passion for technology.
+              PARADIGM is a student-led tech club at Mayoor School Noida, dedicated to fostering innovation, creativity and collaboration in the tech community. We provide a platform for students to learn, build and share their projects, and connect with like-minded individuals who share a passion for technology.
               </p>
               <h3 className="text-3xl font-semibold text-[#9AFF27] underline underline-offset-8 decoration-4">Our History</h3>
               <p className="text-xl leading-relaxed">
-Founded in 2011 by a group of tech enthusiasts, Paradigm has been revived in 2024 by a new generation of students who are passionate about technology. Over the years, we have successfully organized over 14 editions of our premier inter school event BOT hosting over 1000+ children annually and won numerous awards in various competitions.
+Founded in 2011 by a group of tech enthusiasts, PARADIGM has been revived in 2024 by a new generation of students who are passionate about technology. Over the years, we have successfully organized over 14 editions of our annual inter-school tech symposium Battle Of Titans (BOT) hosting over 1000+ children annually and won numerous awards in various competitions.
               </p>
             </div>
             <div className="md:w-1/2">
@@ -237,13 +237,13 @@ function TeamMemberCard({ member }: { member: Member }) {
 
 const achievements = [
   {
-    title: "Overall Champions CODE2K24",
-    date: "October 24",
-    description: "Secured the rolling trophy for the first time at CODE2K24, the annual tech fest hosted by APJ School, Noida.",
+    title: "Overall Champions at Wartex #10.0",
+    date: "October 28",
+    description: "Secured the rolling trophy for the first time at CODE2K24, the annual tech fest hosted by SR DAV School, Dayanand Vihar.",
     image: "https://media.discordapp.net/attachments/853630541571162132/1306332189947990137/code_trophies.jpeg?ex=67364828&is=6734f6a8&hm=ded14c79da4a953932c763eb362d6dd4752d1ccf6748032f7fcace079311e57a&=&format=webp&width=328&height=437"
   },
   {
-    title: "Overall Champions CODE2K24",
+    title: "Overall Champions at CODE 2K24",
     date: "October 24",
     description: "Secured the rolling trophy for the first time at CODE2K24, the annual tech fest hosted by APJ School, Noida.",
     image: "https://placehold.co/100x100"
@@ -316,7 +316,7 @@ const teamMembers = [
     twitter: "https://twitter.com/michaelc"
   },
   {
-    name: "Emily Wong",
+    name: "Ehaan Raza Khan",
     position: "Head Editing",
     bio: "UX/UI designer with a knack for creating intuitive and visually appealing interfaces.",
     image: "https://placehold.co/400x400",
@@ -324,7 +324,7 @@ const teamMembers = [
     twitter: "https://twitter.com/emilyw"
   },
   {
-    name: "David Park",
+    name: "Prathamesh Prabhakar",
     position: "Head Development",
     bio: "Marketing guru with experience in digital campaigns and community engagement.",
     image: "https://placehold.co/400x400",
@@ -333,7 +333,7 @@ const teamMembers = [
   },
  
    {
-    name: "Sarah Thompson",
+    name: "Kunsh Khanna",
     position: "Head Photography",
     bio: "Event planning extraordinaire, passionate about creating memorable tech gatherings.",
     image: "https://placehold.co/400x400",
@@ -341,7 +341,7 @@ const teamMembers = [
     twitter: "https://twitter.com/saraht"
   },
     {
-    name: "Sarah Thompson",
+    name: "Aaradhya Chaturvedi",
     position: "Head Gaming",
     bio: "Event planning extraordinaire, passionate about creating memorable tech gatherings.",
     image: "https://placehold.co/400x400",
@@ -349,7 +349,7 @@ const teamMembers = [
     twitter: "https://twitter.com/saraht"
   },
      {
-    name: "Sarah Thompson",
+    name: "Inesh Agarwal",
     position: "Head AI",
     bio: "Event planning extraordinaire, passionate about creating memorable tech gatherings.",
     image: "https://cdn.discordapp.com/attachments/853630541571162132/1306331215116370011/ineshsite.jpeg?ex=67364740&is=6734f5c0&hm=3baa2553e23eb6073117d8127aed25fd43da660e40d1bb22300eddfed6bb7ae6&",
@@ -357,7 +357,7 @@ const teamMembers = [
     twitter: "https://twitter.com/saraht"
   },
      {
-    name: "Michael Chen",
+    name: "Samarth Goyal",
     position: "Head CyberSecurity",
        bio: "I am interested in jgbveih lorem ipsum sdjbfvbfjg ",
     image: "https://placehold.co/400x400",
@@ -432,33 +432,19 @@ const alumniMembers = [
     linkedin: "https://linkedin.com/in/emilyrodriguez"
   },
   {
-    name: "Mohammad Rayyan",
+    name: "Mohammed Rayyan",
     position: "Former President ",
     bio: "Co-founder of a successful AI startup in Silicon Valley.",
     image: "https://placehold.co/400x400",
     twitter: "https://twitter.com/davidkim"
   },
   {
-    name: "Vithal Aggawal",
+    name: "Vitthal Aggarwal",
     position: "Former Vice President",
     bio: "Currently pursuing a Ph.D. in Computer Science at MIT.",
     image: "https://placehold.co/400x400",
     github: "https://github.com/saraht",
     linkedin: "https://linkedin.com/in/saraht"
-  },
-    {
-    name: "Mohammad Rayyan",
-    position: "Former President ",
-    bio: "Co-founder of a successful AI startup in Silicon Valley.",
-    image: "https://placehold.co/400x400",
-    twitter: "https://twitter.com/davidkim"
-  },
-      {
-    name: "Mohammad Rayyn",
-    position: "Prez ",
-    bio: "Co-founder of a successful AI startup in Silicon Valley.",
-    image: "https://placehold.co/400x400",
-    twitter: "https://twitter.com/davidkim"
   },
   // Add more alumni members as needed to fill out the grid
 ]

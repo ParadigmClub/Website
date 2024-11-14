@@ -15,7 +15,7 @@ const projects = [
     name: "Whispering Shadows",
     description: "A short film dwelling into the old noir and mystery genre in a modern setting inspired by dan brown",
     type: "github",
-    link: "https://github.com/paradigm-tech/ecotrack",
+    link: "https://youtu.be/prYMnHcOdxc?feature=shared",
     image: "https://placehold.co/600x400",
     tags: ["Film", "AfterEffects", "DSLR"]
   },
@@ -23,7 +23,7 @@ const projects = [
     name: "Let it Happen",
     description: "A short film devoid of dialogue exploring the ramifications of social media addiction ",
     type: "github",
-    link: "https://github.com/paradigm-tech/ecotrack",
+    link: "https://youtu.be/UJuWCahC4Uc?feature=shared",
     image: "https://placehold.co/600x400",
     tags: ["Film", "DSLR", "AfterEffects"]
   },
@@ -31,7 +31,7 @@ const projects = [
     name: "Cyber Security 101",
     description: "Website crafted to educate beginners about cybersecurity",
     type: "github",
-    link: "https://www.figma.com/file/smarthomehub",
+    link: "https://github.com/ParadigmClub/Cyber-Security-101",
     image: "https://placehold.co/600x400",
     tags: ["React", "Tailwind", "Cybersecurity"]
   },
