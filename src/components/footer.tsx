@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-gradient-to-br from-[#0F0A0A] to-[#1A1A1A] text-[#FCFCFC] relative overflow-hidden">
       {/* Background image */}
-      <div className="absolute inset-0 bg-[url('https://media.discordapp.net/attachments/1159888188228259930/1306270467115716690/Untitled73_20241113202220.png?ex=67360eac&is=6734bd2c&hm=a4181d2c3b6b1341d4219d313d750b44298b8d6620d70e83ac638eb133c7716f&=&format=webp&quality=lossless&width=656&height=437')] bg-cover bg-center opacity-50"></div>
+      <div className="absolute inset-0 bg-[url('/footerbg.png')] bg-cover bg-center opacity-50"></div>
 
       <div className="container relative z-10 px-8 py-20 mx-auto">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:gap-24">
@@ -12,17 +12,17 @@ export default function Footer() {
           <div className="space-y-8">
             <div className="flex items-center space-x-4">
               <img
-                src="https://media.discordapp.net/attachments/1264873364237975623/1306271880319078440/Logo_white.png?ex=67360ffd&is=6734be7d&hm=f30ddba93c61ddc9d14f715c5c3d8177dce9bd4a531b32d185d539e523c8a05e&=&format=webp&quality=lossless&width=385&height=437"
+                src="/logowhite.png"
                 alt="Paradigm Tech Club Logo"
-                width={60}
-                height={60}
+                width={80}
+                height={80}
                 className="rounded-lg"
               />
               <div>
                 <h2 className="text-3xl font-bold ">
                   PARADIGM
                 </h2>
-                <p className="text-base ">Audere Est Facere</p>
+                <p className="text-base ">Audere Est Facere | To dare is to do</p>
               </div>
             </div>
             <p className="text-lg leading-relaxed 0">
@@ -82,7 +82,7 @@ export default function Footer() {
               © 2024 Paradigm Club | All rights reserved
             </p>
             <div className="flex items-center space-x-2 text-sm text-[#FCFCFC]/60">
-              <span>Website crafted by</span>
+              <span>Website crafted with ❤️ by </span>
               <a href="https://whirlxd.xyz" target='_blank' className="flex items-center text-cyan-400">
                Medhansh 
                 <ExternalLink className="w-4 h-4 ml-1" />

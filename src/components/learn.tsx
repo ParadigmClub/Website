@@ -1,17 +1,58 @@
-import {  Code,Palette, Globe,Aperture,Speech, Youtube, Smartphone, Zap, PenTool, Headphones } from 'lucide-react'
+import { Code, Globe, Palette, Video, Users, HelpCircle, Search, Image, Music, Camera } from 'lucide-react';
 
 const domains = [
-  { name: "Programming", icon: Code, description: "Programming & Development in general is what " },
-  { name: "Web Development", icon: Globe, description: "Master the art of creating responsive and dynamic websites." },
-  { name: "UI/UX Design", icon: PenTool, description: "Learn to protect systems, networks, and programs from digital attacks." },
-  { name: "Video Editing", icon: Youtube  , description: "Explore the world of machine learning and intelligent systems." },
-  { name: "Group Discussion", icon: Speech, description: "Analyze and interpret situations at hand to solve them in a panel discussion." },
-  { name: "Quizzing", icon: Smartphone, description: "Create innovative applications for iOS and Android platforms." },
-  { name: "Cryptic Hunts", icon: Zap, description: "Connect and control devices through internet-based systems." },
-  { name: "Graphic Design", icon: Palette, description: "Design intuitive and visually appealing user interfaces." },
-  { name: "Music Mixing", icon: Headphones, description: "Understand the technology behind cryptocurrencies and decentralized systems." },
-  { name: "Photography", icon: Aperture, description: "Develop audio applications and explore sound engineering." },
-]
+  { 
+    name: "Programming", 
+    icon: Code, 
+    description: "Discover the foundations of coding and software development, covering languages, algorithms, and problem-solving." 
+  },
+  { 
+    name: "Web Development", 
+    icon: Globe, 
+    description: "Learn to create responsive and dynamic websites with skills in HTML, CSS, JavaScript, and frameworks." 
+  },
+  { 
+    name: "UI/UX Design", 
+    icon: Palette, 
+    description: "Dive into user experience and interface design to make digital products both functional and visually appealing." 
+  },
+  { 
+    name: "Video Editing", 
+    icon: Video, 
+    description: "Explore editing techniques, transitions, and effects to create engaging videos and animations." 
+  },
+  { 
+    name: "Group Discussion", 
+    icon: Users, 
+    description: "Improve communication and analytical skills by participating in discussions on various topics to enhance critical thinking." 
+  },
+  { 
+    name: "Quizzing", 
+    icon: HelpCircle, 
+    description: "Test and expand your knowledge on diverse topics, ranging from general knowledge to specific subjects." 
+  },
+  { 
+    name: "Cryptic Hunts", 
+    icon: Search, 
+    description: "Solve puzzles and decipher clues in challenging hunts that require logical thinking and attention to detail." 
+  },
+  { 
+    name: "Graphic Design", 
+    icon: Image, 
+    description: "Create eye-catching visuals and graphics for branding, advertisements, or social media." 
+  },
+  { 
+    name: "Music Mixing", 
+    icon: Music, 
+    description: "Learn the basics of audio engineering and production to mix and create music tracks." 
+  },
+  { 
+    name: "Photography", 
+    icon: Camera, 
+    description: "Understand photography basics, including lighting, composition, and editing, to capture compelling images." 
+  },
+];
+
 
 export function Learn() {
   return (
@@ -26,7 +67,7 @@ export function Learn() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {domains.map((domain, index) => (
             <div key={index} className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#1A1A1A] to-[#2A2A2A] p-1">
-              <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-[#9AFF27] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-[#9AFF27] opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
               <div className="relative bg-[#0F0A0A] p-6 rounded-xl h-full flex flex-col justify-between z-10">
                 <div>
                   <div className="flex items-center mb-4">
