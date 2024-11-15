@@ -32,27 +32,20 @@ export const projects = [
     tags: ["React", "Tailwind", "Cybersecurity"]
   },
   {
-    name: "SmartHome Hub",
-    description: "IoT dashboard for home automation",
+    name: "Donda Poster",
+    description: "A self made version of the Donda album cover",
     type: "figma",
     link: "https://www.figma.com/file/smarthomehub",
     image: "https://placehold.co/600x400",
-    tags: ["IoT", "Dashboard", "UX Design"]
+    tags: ["GFX", "Ps", "Design"]
   },
   {
-    name: "CodeMentor",
-    description: "Peer-to-peer coding mentorship platform",
+    name: "BOT2K24 Website",
+    description: "The official website of the BOT2K24 event",
     type: "github",
     link: "https://github.com/paradigm-tech/codementor",
     image: "https://placehold.co/600x400",
-    tags: ["Vue.js", "Express", "WebRTC"]
+    tags: ["React", "Tailwind", "DaisyUI"]
   },
-  {
-    name: "ArtificialCanvas",
-    description: "AI-generated art collaboration tool",
-    type: "behance",
-    link: "https://www.behance.net/gallery/artificialcanvas",
-    image: "https://placehold.co/600x400",
-    tags: ["Generative AI", "Collaboration", "Art"]
-  }
+ 
 ];

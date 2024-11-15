@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-
 import { motion } from 'framer-motion'
 import { ChevronDown, Figma, Github, Globe, Instagram, Linkedin, } from 'lucide-react'
 import { achievements } from './achievements'

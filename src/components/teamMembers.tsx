@@ -1,13 +1,18 @@
 import Medhansh from '../../public/medhansh.png'
 import Ayaan from '../../public/ayaan.png'
 import Vansh from '../../public/vansh.png'
+import Prathmesh from '../../public/prathmesh.png'
+import abdullah from '../../public/abdullah.png'
+import aaradhya from '../../public/aaradhya.png'
+import samarth from '../../public/samarth.png'
+import inesh from '../../public/inesh.png'
 
 
 export const teamMembers = [
   {
     name: "Medhansh Kapoor",
     position: "President",
-    bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    bio: "Lorem ipsum dolor sit amet, i forgot the rest of the lorem ipsum, so here's a placeholder text , also i like to ski with my buddy",
     image: Medhansh,
     website:"https://whirlxd.xyz",
     github: "https://github.com/whirlxd",
@@ -36,16 +41,15 @@ insta:"https://www.instagram.com/vxnshb/",
   {
     name: "Ehaan Raza Khan",
     position: "Head Editing",
-    bio: "I can sing , rap and edit videos",
-    image: "https://placehold.co/200x300",
-    linkedin: "https://linkedin.com/in/emilyw",
-    twitter: "https://twitter.com/emilyw"
+    bio: "I know a little bit about a lot of things. I also make hard edits",
+    image: "https://placehold.co/100x200",
+insta:"https://www.instagram.com/ehaanfrfr/",
   },
   {
-    name: "Prathmesh Prabhakar",
+    name: "Prathamesh Prabhakar",
     position: "Head Development",
     bio: "If there’s a screwdriver in one hand and a gadget in the other, that gadget’s about to meet its insides. My Motto : If it ain't broke, I’ll probably mess with it anyway!",
-    image: "https://media.discordapp.net/attachments/1306874404306681877/1306877752493998100/20241115_120150_1.jpg?ex=67384440&is=6736f2c0&hm=a5c532f3de8b2a84c571f5ee2a717a0127a55fe62379ef6af5138d3c159139ad&=&format=webp&width=351&height=702",
+    image: Prathmesh,
     linkedin: "https://linkedin.com/in/brunogg",
     github: "https://github.com/brunogg69",
 website:"https://brunogg.in"
@@ -55,7 +59,7 @@ website:"https://brunogg.in"
     name: "Abdullah Viqar",
     position: "Head Graphics",
     bio: "Passionate about tech and design, constantly pushing boundaries to make ideas hit harder. With a camera in one hand and a sketchpad in the other, crafting visuals that don’t just speak—they command attention.",
-    image: "https://media.discordapp.net/attachments/1159888188228259930/1306919723656548362/d0cb3c12-f317-4497-9cb2-863378e82cbc.png?ex=67386b57&is=673719d7&hm=b394d1d8a78316953d50b8f39305971d45b07d1eeffbef989d871033e0fccdbe&=&format=webp&quality=lossless&width=350&height=437",
+    image: abdullah,
     linkedin: "https://www.linkedin.com/in/abdullahvqr/",
     insta:"https://www.instagram.com/abdullah.vqr/"
   },
@@ -63,7 +67,7 @@ website:"https://brunogg.in"
     name: "Aaradhya Chaturvedi",
     position: "Head Gaming",
     bio: "passionate gamer , never back down never what 🗣️",
-    image: "https://placehold.co/100x200",
+    image: aaradhya,
     linkedin: "http://www.linkedin.com/in/aaradhya-chaturvedi-1304ac",
     insta: "https://www.instagram.com/aaradhyac_/"
   },
@@ -71,33 +75,20 @@ website:"https://brunogg.in"
     name: "Inesh Agarwal",
     position: "Head AI",
     bio: "Event planning extraordinaire, passionate about creating memorable tech gatherings.",
-    image: "https://cdn.discordapp.com/attachments/853630541571162132/1306331215116370011/ineshsite.jpeg?ex=67364740&is=6734f5c0&hm=3baa2553e23eb6073117d8127aed25fd43da660e40d1bb22300eddfed6bb7ae6&",
+    image: inesh,
     linkedin: "https://linkedin.com/in/saraht",
     twitter: "https://twitter.com/saraht"
   },
   {
     name: "Samarth Goyal",
     position: "Head CyberSecurity",
-    bio: "I am interested in jgbveih lorem ipsum sdjbfvbfjg ",
-    image: "https://placehold.co/100x200",
-  },
-  {
-    name: "Position Open",
-    position: "Member",
-    bio: "",
-    image: "https://placehold.co/100x200",
-  },
-  {
-    name: "Position Open",
-    position: "Member",
-    bio: "",
-    image: "https://cdn.discordapp.com/attachments/853630541571162132/1306331215116370011/ineshsite.jpeg?ex=67364740&is=6734f5c0&hm=3baa2553e23eb6073117d8127aed25fd43da660e40d1bb22300eddfed6bb7ae6&",
-  },
-  {
-    name: "Position Open",
-    position: "Member",
-    bio: "",
-    image: "https://placehold.co/100x200",
+    bio: `Exploring the cyber world with curiosity and zeal,
+    \n
+    Learning to safeguard, innovate, and reveal,
+    \nA student today, a defender tomorrow—driven by purpose and skill.`,
+    image: samarth,
+ linkedin: "http://www.linkedin.com/in/samarthgoyal509",
+ 
   },
   {
     name: "Position Open",
@@ -118,6 +109,30 @@ website:"https://brunogg.in"
     image: "https://placehold.co/100x200",
   },
   {
+    name: "Position Open",
+    position: "Member",
+    bio: "",
+    image: "https://placehold.co/100x200",
+  },
+  {
+    name: "Position Open",
+    position: "Member",
+    bio: "",
+    image: "https://placehold.co/100x200",
+  },
+  {
+    name: "Position Open",
+    position: "Member",
+    bio: "",
+    image: "https://placehold.co/100x200",
+  },
+  {
+    name: "Position Open",
+    position: "Member",
+    bio: "",
+    image: "https://placehold.co/100x200",
+  },
+    {
     name: "Position Open",
     position: "Member",
     bio: "",

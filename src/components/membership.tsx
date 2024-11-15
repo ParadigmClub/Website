@@ -29,7 +29,7 @@ export function Membership() {
     <div className="min-h-screen bg-[#0F0A0A] text-[#FCFCFC] py-24 px-6 md:px-12 lg:px-24">
       <div className="mx-auto max-w-7xl">
         <h1 className="text-5xl md:text-6xl  font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-[#9AFF27] to-cyan-400">
-          Join Paradigm Tech Club
+          Join PARADIGM
         </h1>
         <p className="max-w-3xl mx-auto mb-16 text-xl text-center text-cyan-400">
           Embark on a journey of innovation, learning, and collaboration with like-minded tech enthusiasts.
