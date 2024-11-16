@@ -4,33 +4,53 @@ export const alumniMembers = [
 		position: "Former Prēsident '24",
 		bio: "Currently pursuing a Ph.D. in Computer Science at MIT.",
 		image: "https://placehold.co/400x400",
-		github: "https://github.com/saraht",
-		linkedin: "https://linkedin.com/in/saraht",
 	},
 	{
 		name: "Md.Rayyan",
 		position: "Former Prēsident '24",
 		bio: "Currently pursuing a Ph.D. in Computer Science at MIT.",
 		image: "https://placehold.co/400x400",
-		github: "https://github.com/saraht",
-		linkedin: "https://linkedin.com/in/saraht",
 	},
 	{
 		name: "Vithal Aggawal",
 		position: "Former Prēsident '23",
 		bio: "Currently pursuing a Ph.D. in Computer Science at MIT.",
 		image: "https://placehold.co/400x400",
-		github: "https://github.com/saraht",
-		linkedin: "https://linkedin.com/in/saraht",
 	},
 	{
 		name: "Yash Vats",
 		position: "Former Prēsident '19",
 		bio: "Currently pursuing a Ph.D. in Computer Science at MIT.",
 		image: "https://placehold.co/400x400",
-		github: "https://github.com/saraht",
-		linkedin: "https://linkedin.com/in/saraht",
 	},
-
-	// Add more alumni members as needed to fill out the grid
+	{
+		name: "Dhruv Gupta",
+		position: "Former Prēsident '18",
+		bio: "Currently pursuing a Ph.D. in Computer Science at MIT.",
+		image: "https://placehold.co/400x400",
+	},
+	{
+		name: "Aditya Taneja",
+		position: "Former Prēsident '17",
+		bio: "Currently pursuing a Ph.D. in Computer Science at MIT.",
+		image: "https://placehold.co/400x400",
+	},
+	{
+		name: "Rishabh Johri",
+		position: "Former Prēsident '16",
+		bio: "Currently pursuing a Ph.D. in Computer Science at MIT.",
+		image: "https://placehold.co/400x400",
+	},
+	{
+		name: "Ibrahim H Khan",
+		position: "Former Prēsident '14",
+		bio: "Currently pursuing a Ph.D. in Computer Science at MIT.",
+		image: "https://placehold.co/400x400",
+	},
+	{
+		name: "Kanishk Mishra",
+		position: "Former Prēsident '13",
+		bio: "Currently pursuing a Ph.D. in Computer Science at MIT.",
+		image: "https://placehold.co/400x400",
+	},
 ];

@@ -1,11 +1,12 @@
+import streetscout from "../../public/streetscout.png";
 export const projects = [
 	{
 		name: "StreetScout",
 		description:
-			"A mobile app for reporting and tracking damage to public property",
+			"A mobile app for reporting and tracking damage to public property reducing the time taken to repair and maintain it. Made for ease of convenience for the public and the authorities. ",
 		type: "github",
 		link: "https://github.com/paradigm-tech/ecotrack",
-		image: "https://placehold.co/600x400",
+		image: streetscout,
 		tags: ["React Native", "Node.js", "MongoDB"],
 	},
 	{

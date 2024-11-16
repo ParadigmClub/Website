@@ -3,12 +3,9 @@ import { Mail, Phone, MapPin, Instagram, ExternalLink } from "lucide-react";
 export default function Footer() {
 	return (
 		<footer className="bg-gradient-to-br from-[#0F0A0A] to-[#1A1A1A] text-[#FCFCFC] relative overflow-hidden">
-			{/* Background image */}
-			<div className="absolute inset-0 bg-[url('/footerbg.png')] bg-cover bg-center opacity-50"></div>
-
+			<div className="absolute inset-0 bg-[url('/footerbg.png')] bg-cover bg-center opacity-50" />
 			<div className="container relative z-10 px-8 py-20 mx-auto">
 				<div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:gap-24">
-					{/* Left Column - About */}
 					<div className="space-y-8">
 						<div className="flex items-center space-x-4">
 							<img
@@ -35,7 +32,6 @@ export default function Footer() {
 						</p>
 					</div>
 
-					{/* Right Column - Contact */}
 					<div className="space-y-8">
 						<h3 className="text-2xl font-semibold ">Contact Us</h3>
 						<div className="space-y-6">
@@ -58,7 +54,7 @@ export default function Footer() {
 								<div className="flex items-center space-x-4">
 									<Phone className="flex-shrink-0 w-6 h-6" />
 									<div>
-										<p className="text-[#FCFCFC]/80 text-lg">+91 97172 91341</p>
+										<p className="text-lg ">+91 97172 91341</p>
 										<p className="text-sm ">(Medhansh Kapoor - President)</p>
 									</div>
 								</div>
@@ -66,7 +62,7 @@ export default function Footer() {
 							<div className="flex items-center space-x-4">
 								<Instagram className="flex-shrink-0 w-6 h-6" />
 								<a
-									href="https://instagram.com/paradigm_tech"
+									href="https://instagram.com/paradigxm"
 									target="_blank"
 									rel="noopener noreferrer"
 									className="text-lg transition-colors "
@@ -80,14 +76,14 @@ export default function Footer() {
 									href="mailto:contact@paradigmtech.club"
 									className="text-lg transition-colors "
 								>
-									contact@paradigmtech.club
+									contact@paradigmclub.tech
 								</a>
 							</div>
 						</div>
 					</div>
 				</div>
 
-				{/* Bottom Bar */}
+				{/*DO NOT REMOVE OR CHANGE THE CREDITS | PROTECTED BY GPL AGPL 3.0 */}
 				<div className="mt-20 pt-8 border-t border-[#FCFCFC]/10">
 					<div className="flex flex-col items-center justify-between space-y-4 md:flex-row md:space-y-0">
 						<p className="text-sm text-[#FCFCFC]/60">
@@ -99,6 +95,7 @@ export default function Footer() {
 								href="https://whirlxd.xyz"
 								target="_blank"
 								className="flex items-center text-cyan-400"
+								rel="noreferrer"
 							>
 								Medhansh
 								<ExternalLink className="w-4 h-4 ml-1" />

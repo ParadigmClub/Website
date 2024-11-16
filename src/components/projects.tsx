@@ -52,10 +52,11 @@ export function Projects() {
 				<div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
 					{filteredProjects.map((project, index) => (
 						<div
+							// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 							key={index}
 							className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#1A1A1A] to-[#2A2A2A] p-1"
 						>
-							<div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-[#9AFF27] opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+							<div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-[#9AFF27] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 							<div className="relative bg-[#0F0A0A] rounded-xl overflow-hidden">
 								<img
 									src={project.image}
@@ -75,6 +76,7 @@ export function Projects() {
 									<div className="flex flex-wrap gap-2 mb-4">
 										{project.tags.map((tag, i) => (
 											<span
+												// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 												key={i}
 												className="px-2 py-1 bg-[#9AFF27]/20 text-[#9AFF27] text-sm rounded-full"
 											>

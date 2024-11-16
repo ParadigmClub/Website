@@ -87,15 +87,17 @@ h1, h2, h3, h4, h5 {
 /* Custom scrollbar styles */
 .custom-scrollbar::-webkit-scrollbar {
   height: 8px;
+  width: 20px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-track {
-  background: transparent;
+
+    background: #232E33;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb {
   background-color: cyan;
-  border-radius: 10px;
+  border-radius: 2px;
 }
 
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
@@ -109,7 +111,12 @@ h1, h2, h3, h4, h5 {
     transform: translateX(-100%);
   }
 }
-
+@supports not selector(::-webkit-scrollbar) {
+  body {
+      scrollbar-color: #00bcd4 #232E33;
+                 
+  }
+}
 .achievements-container {
   display: flex;
   overflow: hidden;

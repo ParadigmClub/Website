@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import TheTeam from "../../public/theteam.png";
 import { motion } from "framer-motion";
 import {
 	ChevronDown,
@@ -34,9 +35,10 @@ export function MainPageComponent() {
 						<div className="grid w-full h-full grid-cols-12 grid-rows-6">
 							{[...Array(72)].map((_, i) => (
 								<div
+									// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 									key={i}
 									className="border-[0.5px] border-[#9AFF27]/10"
-								></div>
+								/>
 							))}
 						</div>
 					</div>
@@ -85,7 +87,7 @@ export function MainPageComponent() {
 				<motion.div
 					className="absolute transform -translate-x-1/2 bottom-8 left-1/2"
 					animate={{ y: [0, 10, 0] }}
-					transition={{ repeat: Infinity, duration: 1.5 }}
+					transition={{ repeat: Number.POSITIVE_INFINITY, duration: 1.5 }}
 				>
 					<ChevronDown className="w-8 h-8 text-cyan-400" />
 				</motion.div>
@@ -121,7 +123,7 @@ export function MainPageComponent() {
 						</div>
 						<div className="md:w-1/2">
 							<img
-								src="https://media.discordapp.net/attachments/1159888188228259930/1306661530581860402/1000024701.png?ex=67377ae1&is=67362961&hm=4851d6de655584b51e3dae98954069ed346903008d084c1cb67c7de69068a8bb&=&format=webp&quality=lossless&width=936&height=702"
+								src={TheTeam}
 								alt="The Team"
 								width={800}
 								height={600}
@@ -142,6 +144,7 @@ export function MainPageComponent() {
 						<div className="flex gap-8 pb-4 overflow-x-auto custom-scrollbar">
 							{achievements.map((achievement, index) => (
 								<div
+									// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 									key={index}
 									className="flex-shrink-0 w-80 bg-[#FCFCFC]/10 p-6 rounded-lg"
 								>
@@ -171,8 +174,8 @@ export function MainPageComponent() {
 				<div className="container mx-auto">
 					<h2 className="mb-16 text-5xl font-bold text-center">Our Team</h2>
 					<div className="flex justify-center mb-8">
-						{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
 						<button
+							type="button"
 							onClick={() => setShowAlumni(false)}
 							className={`px-6 py-2 rounded-l-2xl ${
 								!showAlumni ? "bg-[#9AFF27] text-[#0F0A0A]" : "bg-[#FCFCFC]/10"
@@ -180,8 +183,9 @@ export function MainPageComponent() {
 						>
 							Current Team
 						</button>
-						{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
+
 						<button
+							type="button"
 							onClick={() => setShowAlumni(true)}
 							className={`px-6 py-2 rounded-r-2xl ${
 								showAlumni ? "bg-[#9AFF27] text-[#0F0A0A]" : "bg-[#FCFCFC]/10"
@@ -233,6 +237,7 @@ export function MainPageComponent() {
 								)
 								.slice(0, showAllMembers ? undefined : 0)
 								.map((member, index) => (
+									// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 									<TeamMemberCard key={index} member={member} />
 								))}
 							{!showAllMembers &&
@@ -243,8 +248,9 @@ export function MainPageComponent() {
 								).length > 3 && (
 									<div className="relative col-span-1 sm:col-span-2 md:col-span-4">
 										<div className="absolute inset-0 bg-gradient-to-t from-[#0F0A0A] to-transparent" />
-										{/* biome-ignore lint/a11y/useButtonType: <explanation> */}
+
 										<button
+											type="button"
 											onClick={() => setShowAllMembers(true)}
 											className="absolute bottom-0 left-1/2 transform -translate-x-1/2 px-6 py-3 bg-[#9AFF27] text-[#0F0A0A] font-semibold rounded-md hover:bg-[#8AEF17] transition-colors flex items-center"
 										>

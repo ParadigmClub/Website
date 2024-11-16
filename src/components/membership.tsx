@@ -1,18 +1,5 @@
 import { useState } from "react";
-import {
-	Users,
-	Lightbulb,
-	UserCheck,
-	Book,
-	Shield,
-	Gift,
-	Mail,
-	Phone,
-	MapPin,
-	Github,
-	Linkedin,
-	Twitter,
-} from "lucide-react";
+import { Users, Lightbulb, UserCheck, Book, Shield, Gift } from "lucide-react";
 
 export function Membership() {
 	type SectionId =
@@ -36,12 +23,17 @@ export function Membership() {
 		];
 
 	const content: Record<SectionId, string> = {
-		"what-we-do": `At Paradigm Tech Club, we foster a community of tech enthusiasts, innovators, and problem-solvers. We organize workshops, hackathons, and collaborative projects to enhance your skills and keep you updated with the latest in technology.`,
-		expectations: `We expect our members to be passionate about technology, eager to learn, and willing to contribute to our community. Active participation in club activities, respect for fellow members, and a commitment to personal growth are key expectations.`,
-		membership: `Membership is open to all students and professionals interested in technology. We have a rolling application process, with interviews conducted quarterly. Prospective members should demonstrate enthusiasm, relevant skills or willingness to learn, and alignment with our club's values.`,
-		"focus-fields": `Our club focuses on a wide range of technology fields including but not limited to: Web Development, Mobile App Development, Artificial Intelligence, Data Science, Cybersecurity, IoT, Blockchain, and UI/UX Design.`,
-		"code-of-conduct": `We maintain a respectful, inclusive, and collaborative environment. Discrimination, harassment, or disruptive behavior is not tolerated. We expect professional conduct, ethical practices, and adherence to intellectual property rights in all club activities.`,
-		benefits: `As a member, you'll gain access to exclusive workshops, networking opportunities with industry professionals, collaborative projects, mentorship programs, and the chance to showcase your skills at our annual tech showcase. You'll also receive discounts on tech conferences and events.`,
+		"what-we-do":
+			"At Paradigm we foster a community of tech enthusiasts, innovators, and problem-solvers. We provide a platform for members to explore, learn, and collaborate. Our goal is to create a supportive environment that encourages personal growth and skill development. We are also responsible for selecting and mentoring students for inter-school competitions.",
+		expectations:
+			"We expect our members to be passionate about technology, eager to learn, and willing to contribute to our community. Active participation in club activities, respect for fellow members, and a commitment to personal growth are key expectations.",
+		membership:
+			"Membership is open to all students willing to learn and grow in the field of technology from classes 6-12. To be a member of Paradigm, students must fill out the membership form and attend the club meetings regularly. Members are expected to actively participate in club activities and contribute positively to the community.",
+		"focus-fields":
+			"Our club focuses on a wide range of technology fields including but not limited to: Web Development, Mobile App Development, Artificial Intelligence, Designing, Cybersecurity, Photography, Robotics, Music Mixing, and Editing.",
+		"code-of-conduct":
+			"We maintain a respectful, inclusive, and collaborative environment. Discrimination, harassment, or disruptive behavior is not tolerated. We expect professional conduct, ethical practices, and adherence to intellectual property rights in all club activities.",
+		benefits: `As a member, you'll work closely with like-minded individuals, learn from experienced mentors, and gain hands-on experience in various technology fields. You'll be the priority for interschools competitions and will get a chance to represent the school in various competitions. `,
 	};
 
 	return (
@@ -77,9 +69,9 @@ export function Membership() {
 					))}
 				</div>
 
-				<div className="bg-gradient-to-r from-cyan-400 to-[#9AFF27] p-1 rounded-3xl transform hover:scale-105 transition-transform duration-300">
+				{/* <div className="bg-gradient-to-r from-cyan-400 to-[#9AFF27] p-1 rounded-3xl transform hover:scale-105 transition-transform duration-300">
 					<div className="bg-[#0F0A0A] rounded-3xl p-8 relative overflow-hidden">
-						<div className="absolute inset-0 bg-[url('/placeholder.svg?height=400&width=800')] opacity-10"></div>
+						<div className="absolute inset-0 bg-[url('/placeholder.svg?height=400&width=800')] opacity-10" />
 						<h2 className="relative z-10 mb-6 text-3xl font-bold text-center text-cyan-400">
 							Get in Touch
 						</h2>
@@ -134,7 +126,7 @@ export function Membership() {
 							</a>
 						</div>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);

@@ -39,7 +39,8 @@ export const teamMembers = [
 		name: "Ehaan Raza Khan",
 		position: "Head Editing",
 		bio: "I know a little bit about a lot of things. I also make hard edits",
-		image: "https://placehold.co/100x200",
+		image:
+			"https://media.discordapp.net/attachments/853630541571162132/1307264436276428841/cropped_image.png?ex=6739ac61&is=67385ae1&hm=337b58b03e3457283882637d5c92239153aa3ae44ae1f9d170eac34078be15ce&=&format=webp&quality=lossless&width=287&height=430",
 		insta: "https://www.instagram.com/ehaanfrfr/",
 	},
 	{

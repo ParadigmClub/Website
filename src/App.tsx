@@ -7,7 +7,7 @@ import Footer from "./components/footer";
 function App() {
 	return (
 		<>
-			<div>
+			<div className="h-screen overflow-y-scroll custom-scrollbar ">
 				<MainPageComponent />
 				<Learn />
 				<Projects />
