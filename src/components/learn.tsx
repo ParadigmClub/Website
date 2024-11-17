@@ -88,10 +88,11 @@ export function Learn() {
 				<div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
 					{domains.map((domain, index) => (
 						<div
+							// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 							key={index}
 							className="group relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#1A1A1A] to-[#2A2A2A] p-1"
 						>
-							<div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-[#9AFF27] opacity-0 group-hover:opacity-100 transition-opacity duration-200"></div>
+							<div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-[#9AFF27] opacity-0 group-hover:opacity-100 transition-opacity duration-200" />
 							<div className="relative bg-[#0F0A0A] p-6 rounded-xl h-full flex flex-col justify-between z-10">
 								<div>
 									<div className="flex items-center mb-4">
@@ -100,7 +101,10 @@ export function Learn() {
 									</div>
 									<p className="text-[#FCFCFC]/80 mb-6">{domain.description}</p>
 								</div>
-								<button className="self-start px-4 py-2 bg-gradient-to-r from-cyan-400 to-[#9AFF27] text-[#0F0A0A] font-semibold rounded-md transform hover:scale-105 transition-transform duration-300">
+								<button
+									type="button"
+									className="self-start px-4 py-2 bg-gradient-to-r from-cyan-400 to-[#9AFF27] text-[#0F0A0A] font-semibold rounded-md transform hover:scale-105 transition-transform duration-300"
+								>
 									Explore
 								</button>
 							</div>

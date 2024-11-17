@@ -65,19 +65,19 @@ export function MainPageComponent() {
 					</div>
 					<div className="flex justify-center space-x-4">
 						<a
-							href="/learn"
+							href="#about"
 							className="px-6 py-3 bg-[#9AFF27] text-[#0F0A0A] font-semibold rounded-md hover:bg-[#8AEF17] transition-colors"
 						>
 							Learn More
 						</a>
 						<a
-							href="/events"
+							href="#team"
 							className="px-6 py-3 bg-cyan-400 text-[#0F0A0A] font-semibold rounded-md hover:bg-cyan-300 transition-colors"
 						>
 							The Team
 						</a>
 						<a
-							href="/join"
+							href="#membership"
 							className="px-6 py-3 border-2 border-[#FCFCFC] text-[#FCFCFC] font-semibold rounded-md hover:bg-[#FCFCFC] hover:text-[#0F0A0A] transition-colors"
 						>
 							Join Us
@@ -94,7 +94,7 @@ export function MainPageComponent() {
 			</section>
 
 			{/* About Section */}
-			<section className="px-8 py-32 md:px-16">
+			<section id="about" className="px-8 py-32 md:px-16">
 				<div className="container mx-auto">
 					<h2 className="mb-16 text-5xl font-bold text-center">About Us</h2>
 					<div className="flex flex-col items-center gap-16 md:flex-row">
@@ -170,7 +170,7 @@ export function MainPageComponent() {
 			</section>
 
 			{/* Team Section */}
-			<section className="px-8 py-32 md:px-16">
+			<section id="team" className="px-8 py-32 md:px-16">
 				<div className="container mx-auto">
 					<h2 className="mb-16 text-5xl font-bold text-center">Our Team</h2>
 					<div className="flex justify-center mb-8">

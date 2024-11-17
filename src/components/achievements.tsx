@@ -20,14 +20,16 @@ export const achievements = [
 		date: "July 24",
 		description:
 			"Mohammad Arquam and Mohammed Rayyan bagged the first position in the Senior Programming event at Incognito24, hosted by Sommerville School, Noida",
-		image: "/placeholder.svg?height=100&width=100",
+		image:
+			"https://media.discordapp.net/attachments/853630541571162132/1307704397312036974/SSN_0876.JPG?ex=673b4620&is=6739f4a0&hm=d4ce983fe98090c3fd21174dd0cdf18c0f485d0f53a6626098dd68e25d808c54&=&format=webp&width=1053&height=702",
 	},
 	{
 		title: "Winners at PyPanache at Infinitus24",
 		date: "July 24",
 		description:
 			"Mohammad Arquam and Mohammed Rayyan bagged the first position in the Python Programming event at Infinitus24, hosted by DPS Mathura Road, Ghaziabad",
-		image: "/placeholder.svg?height=100&width=100",
+		image:
+			"https://media.discordapp.net/attachments/853630541571162132/1307704397312036974/SSN_0876.JPG?ex=673b4620&is=6739f4a0&hm=d4ce983fe98090c3fd21174dd0cdf18c0f485d0f53a6626098dd68e25d808c54&=&format=webp&width=1053&height=702",
 	},
 	{
 		title: "Double Podium at Kryptos ",

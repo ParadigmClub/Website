@@ -16,9 +16,11 @@ This is the official website for the Paradigm Tech Club of Mayoor School Noida. 
 
 - **Frontend**: React, TypeScript, Tailwind CSS
 - **Build Tool**: Vite
-- **Linting**: BIOME 
+- **Formatting**: BIOME 
+- **Linting**: ESLint
 - **Icons**: Lucide React
 - **Animations**: Framer Motion
+
 
 ## Setup and Installation
 

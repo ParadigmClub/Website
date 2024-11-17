@@ -31,11 +31,11 @@ export function Projects() {
 		<div className="min-h-screen bg-[#0F0A0A] text-[#FCFCFC] py-24 px-6 md:px-12 lg:px-24">
 			<div className="mx-auto max-w-7xl">
 				<h1 className="text-5xl md:text-6xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-[#9AFF27] to-cyan-400">
-					Our Innovative Projects
+					Our Projects
 				</h1>
 				<p className="text-xl text-center mb-16 text-[#FCFCFC]/80 max-w-3xl mx-auto">
-					Explore the cutting-edge projects developed by our talented members,
-					showcasing our skills and creativity.
+					Explore the projects we've worked on, ranging from mobile apps to
+					short film and websites.
 				</p>
 
 				<div className="relative mb-12">

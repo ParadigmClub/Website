@@ -37,7 +37,10 @@ export function Membership() {
 	};
 
 	return (
-		<div className="min-h-screen bg-[#0F0A0A] text-[#FCFCFC] py-24 px-6 md:px-12 lg:px-24">
+		<section
+			id="membership"
+			className="min-h-screen bg-[#0F0A0A] text-[#FCFCFC] py-24 px-6 md:px-12 lg:px-24"
+		>
 			<div className="mx-auto max-w-7xl">
 				<h1 className="text-5xl md:text-6xl  font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-[#9AFF27] to-cyan-400">
 					Join PARADIGM
@@ -128,6 +131,6 @@ export function Membership() {
 					</div>
 				</div> */}
 			</div>
-		</div>
+		</section>
 	);
 }
