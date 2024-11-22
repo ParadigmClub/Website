@@ -9,15 +9,23 @@ export default function Footer() {
 					<div className="space-y-8">
 						<div className="flex items-center space-x-4">
 							<img
+								src="https://assets.hackclub.com/flag-standalone-wtransparent.svg"
+								alt="Hack Club Logo"
+								width={80}
+								height={80}
+								className="rounded-lg"
+							/>
+							<span className="mx-auto  md:inline-block">X</span>
+							<img
 								src="/logowhite.png"
 								alt="Paradigm Tech Club Logo"
 								width={80}
 								height={80}
 								className="rounded-lg"
 							/>
-							<div>
-								<h2 className="text-3xl font-bold ">PARADIGM</h2>
-								<p className="text-base ">
+							<div className="block md:inline-block">
+								<h2 className="text-3xl font-bold">PARADIGM</h2>
+								<p className="text-base">
 									Audere Est Facere | To dare is to do
 								</p>
 							</div>
@@ -28,7 +36,8 @@ export default function Footer() {
 							technologies. We also provide mentorship and guidance to students
 							who are interested in pursuing a career in technology. Our goal is
 							to create a community of tech enthusiasts who are passionate about
-							learning and sharing their knowledge with others.
+							learning and sharing their knowledge with others. We are also an
+							official club of Hack Club.
 						</p>
 					</div>
 

@@ -43,7 +43,7 @@ export function Membership() {
 		>
 			<div className="mx-auto max-w-7xl">
 				<h1 className="text-5xl md:text-6xl  font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-[#9AFF27] to-cyan-400">
-					Join PARADIGM
+					Join Us
 				</h1>
 				<p className="max-w-3xl mx-auto mb-16 text-xl text-center text-cyan-400">
 					Embark on a journey of innovation, learning, and collaboration with

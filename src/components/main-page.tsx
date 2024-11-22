@@ -44,12 +44,14 @@ export function MainPageComponent() {
 					</div>
 				</div>
 				<div className="z-10 mb-2 text-center">
-					<h1 className="text-6xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-[#9AFF27] to-cyan-400 leading-relaxed">
+					<h1 className=" max-sm:text-5xl text-6xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-[#9AFF27] to-cyan-400 leading-relaxed">
 						PARADIGM Club
 					</h1>
 
 					<div className="flex items-center justify-center h-20 mb-8">
-						<span className="text-4xl font-light">To dare is to &nbsp;</span>
+						<span className="text-4xl font-light max-sm:text-3xl">
+							To dare is to &nbsp;
+						</span>
 						<motion.p
 							key={currentWord}
 							initial={{ y: 20, opacity: 0 }}
@@ -63,7 +65,7 @@ export function MainPageComponent() {
 							</span>
 						</motion.p>
 					</div>
-					<div className="flex justify-center space-x-4">
+					<div className="grid items-center justify-center grid-cols-2 gap-4 md:grid-cols-3 ">
 						<a
 							href="#about"
 							className="px-6 py-3 bg-[#9AFF27] text-[#0F0A0A] font-semibold rounded-md hover:bg-[#8AEF17] transition-colors"
@@ -78,7 +80,7 @@ export function MainPageComponent() {
 						</a>
 						<a
 							href="#membership"
-							className="px-6 py-3 border-2 border-[#FCFCFC] text-[#FCFCFC] font-semibold rounded-md hover:bg-[#FCFCFC] hover:text-[#0F0A0A] transition-colors"
+							className="px-6 py-3 max-sm:col-span-2 border-2 border-[#FCFCFC] text-[#FCFCFC] font-semibold rounded-md hover:bg-[#FCFCFC] hover:text-[#0F0A0A] transition-colors"
 						>
 							Join Us
 						</a>
@@ -107,7 +109,8 @@ export function MainPageComponent() {
 								dedicated to fostering innovation, creativity and collaboration
 								in the tech community. We provide a platform for students to
 								learn, build and share their projects, and connect with
-								like-minded individuals who share a passion for technology.
+								like-minded individuals who share a passion for technology. We
+								also serve as an official club of Hack Club.
 							</p>
 							<h3 className="text-3xl font-semibold text-[#9AFF27] underline underline-offset-8 decoration-4">
 								Our History

@@ -79,11 +79,11 @@ export function Learn() {
 		<div className="min-h-screen bg-[#0F0A0A] text-[#FCFCFC] py-24 px-6 md:px-12 lg:px-24">
 			<div className="mx-auto max-w-7xl">
 				<h1 className="text-5xl md:text-6xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-[#9AFF27] to-cyan-400">
-					Explore Our Tech Domains
+					Learn with PARADIGM
 				</h1>
 				<p className="text-xl text-center mb-16 text-[#FCFCFC]/80 max-w-3xl mx-auto">
-					Dive into the cutting-edge realms of technology. Each domain offers
-					unique challenges and opportunities for growth.
+					Explore various domains and activities to enhance your skills and
+					knowledge.
 				</p>
 				<div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
 					{domains.map((domain, index) => (
