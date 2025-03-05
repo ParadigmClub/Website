@@ -101,7 +101,7 @@ export default function Footer() {
 						<div className="flex items-center space-x-2 text-sm text-[#FCFCFC]/60">
 							<span>Website crafted with ❤️ by </span>
 							<a
-								href="https://whirlxd.xyz"
+								href="https://whirlxd.dev"
 								target="_blank"
 								className="flex items-center text-cyan-400"
 								rel="noreferrer"
