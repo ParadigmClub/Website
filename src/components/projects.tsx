@@ -100,7 +100,7 @@ export function Projects() {
 					className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3"
 				>
 					<AnimatePresence>
-						{filteredProjects.map((project, index) => (
+						{filteredProjects.map((project) => (
 							<motion.div
 								key={project.name}
 								variants={itemVariants}
@@ -143,6 +143,7 @@ export function Projects() {
 										<div className="flex flex-wrap gap-2 mb-4">
 											{project.tags.map((tag, i) => (
 												<motion.span
+													// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 													key={i}
 													initial={{ opacity: 0, scale: 0.8 }}
 													animate={{ opacity: 1, scale: 1 }}

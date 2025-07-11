@@ -325,6 +325,7 @@ export function MainPageComponent() {
 								.filter((member) => member.position.includes("Vice President"))
 								.slice(0, 1)
 								.map((member, index) => (
+									// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 									<div key={index} className="w-full md:w-1/2">
 										<TeamMemberCard member={member} />
 									</div>
