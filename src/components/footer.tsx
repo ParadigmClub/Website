@@ -3,7 +3,7 @@ import { Mail, Phone, MapPin, Instagram, ExternalLink } from "lucide-react";
 export default function Footer() {
 	return (
 		<footer className="bg-gradient-to-br from-[#0F0A0A] to-[#1A1A1A] text-[#FCFCFC] relative overflow-hidden">
-			<div className="absolute inset-0 bg-[url('/footerbg.png')] bg-cover bg-center opacity-50" />
+			<div className="absolute inset-0 bg-[url('/footerbg.webp')] bg-cover bg-center opacity-30" />
 			<div className="container relative z-10 px-8 py-20 mx-auto">
 				<div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:gap-24">
 					<div className="space-y-8">
@@ -23,14 +23,14 @@ export default function Footer() {
 								height={80}
 								className="rounded-lg"
 							/>
-							<div className="block md:inline-block">
-								<h2 className="text-3xl font-bold">PARADIGM</h2>
+							<div className="block md:inline-block max-sm:hidden">
+								<h2 className="text-3xl font-bold max-sm:text-xl">PARADIGM</h2>
 								<p className="text-base">
 									Audere Est Facere | To dare is to do
 								</p>
 							</div>
 						</div>
-						<p className="text-lg leading-relaxed 0">
+						<p className="text-lg leading-relaxed">
 							Paradigm established in 2011 is a tech club that aims to provide a
 							platform for students to explore and learn about the latest
 							technologies. We also provide mentorship and guidance to students
@@ -42,11 +42,11 @@ export default function Footer() {
 					</div>
 
 					<div className="space-y-8">
-						<h3 className="text-2xl font-semibold ">Contact Us</h3>
+						<h3 className="text-2xl font-semibold">Contact Us</h3>
 						<div className="space-y-6">
 							<div className="flex items-start space-x-4">
 								<MapPin className="flex-shrink-0 w-6 h-6" />
-								<p className="text-lg ">
+								<p className="text-lg">
 									Mayoor School Noida,
 									<br />
 									Sector 126 Noida, Uttar Pradesh, India
@@ -56,15 +56,15 @@ export default function Footer() {
 								<div className="flex items-center space-x-4">
 									<Phone className="flex-shrink-0 w-6 h-6" />
 									<div>
-										<p className="text-lg ">+91 98914 35310</p>
-										<p className="text-sm ">(Mrs. Ranjana Bajaj - CS HOD)</p>
+										<p className="text-lg">+91 98914 35310</p>
+										<p className="text-sm">(Mrs. Ranjana Bajaj - CS HOD)</p>
 									</div>
 								</div>
 								<div className="flex items-center space-x-4">
 									<Phone className="flex-shrink-0 w-6 h-6" />
 									<div>
-										<p className="text-lg ">+91 97172 91341</p>
-										<p className="text-sm ">(Medhansh Kapoor - President)</p>
+										<p className="text-lg">+91 97172 91341</p>
+										<p className="text-sm">(Medhansh Kapoor - President)</p>
 									</div>
 								</div>
 							</div>
@@ -74,7 +74,7 @@ export default function Footer() {
 									href="https://instagram.com/paradigxm"
 									target="_blank"
 									rel="noopener noreferrer"
-									className="text-lg transition-colors "
+									className="text-lg transition-colors"
 								>
 									@paradigxm
 								</a>
@@ -83,7 +83,7 @@ export default function Footer() {
 								<Mail className="flex-shrink-0 w-6 h-6" />
 								<a
 									href="mailto:contact@paradigmclub.co"
-									className="text-lg transition-colors "
+									className="text-lg transition-colors"
 								>
 									contact@paradigmclub.co
 								</a>

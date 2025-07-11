@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { motion } from "framer-motion";
 import { Users, Lightbulb, UserCheck, Book, Shield, Gift } from "lucide-react";
 
 export function Membership() {
@@ -36,25 +37,72 @@ export function Membership() {
 		benefits: `As a member, you'll work closely with like-minded individuals, learn from experienced mentors, and gain hands-on experience in various technology fields. You'll be the priority for interschools competitions and will get a chance to represent the school in various competitions. `,
 	};
 
+	const containerVariants = {
+		hidden: { opacity: 0 },
+		visible: {
+			opacity: 1,
+			transition: {
+				delayChildren: 0.3,
+				staggerChildren: 0.1,
+			},
+		},
+	};
+
+	const itemVariants = {
+		hidden: { y: 50, opacity: 0 },
+		visible: {
+			y: 0,
+			opacity: 1,
+			transition: {
+				duration: 0.8,
+				ease: "easeOut",
+			},
+		},
+	};
+
 	return (
 		<section
 			id="membership"
 			className="min-h-screen bg-[#0F0A0A] text-[#FCFCFC] py-24 px-6 md:px-12 lg:px-24"
 		>
 			<div className="mx-auto max-w-7xl">
-				<h1 className="text-5xl md:text-6xl  font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-[#9AFF27] to-cyan-400">
+				<motion.h1
+					initial={{ opacity: 0, y: 50 }}
+					whileInView={{ opacity: 1, y: 0 }}
+					transition={{ duration: 0.8 }}
+					viewport={{ once: true }}
+					className="text-5xl md:text-6xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-[#9AFF27] to-cyan-400"
+				>
 					Join Us
-				</h1>
-				<p className="max-w-3xl mx-auto mb-16 text-xl text-center text-cyan-400">
+				</motion.h1>
+				<motion.p
+					initial={{ opacity: 0, y: 30 }}
+					whileInView={{ opacity: 1, y: 0 }}
+					transition={{ duration: 0.6, delay: 0.2 }}
+					viewport={{ once: true }}
+					className="max-w-3xl mx-auto mb-16 text-xl text-center text-cyan-400"
+				>
 					Embark on a journey of innovation, learning, and collaboration with
 					like-minded tech enthusiasts.
-				</p>
+				</motion.p>
 
-				<div className="grid grid-cols-1 gap-8 mb-16 md:grid-cols-2">
+				<motion.div
+					variants={containerVariants}
+					initial="hidden"
+					whileInView="visible"
+					viewport={{ once: true }}
+					className="grid grid-cols-1 gap-8 mb-16 md:grid-cols-2"
+				>
 					{sections.map((section) => (
-						<div
+						<motion.div
 							key={section.id}
-							className={`bg-gradient-to-br from-[#1A1A1A] to-[#2A2A2A] rounded-3xl p-8 transition-all duration-300 ${
+							variants={itemVariants}
+							whileHover={{
+								scale: 1.05,
+								y: -5,
+								transition: { duration: 0.3 },
+							}}
+							className={`bg-gradient-to-br from-[#1A1A1A] to-[#2A2A2A] rounded-3xl p-8 transition-all duration-300 cursor-pointer ${
 								activeSection === section.id
 									? "ring-2 ring-cyan-400 shadow-lg shadow-cyan-400/20"
 									: ""
@@ -62,74 +110,24 @@ export function Membership() {
 							onMouseEnter={() => setActiveSection(section.id)}
 						>
 							<div className="flex items-center mb-4">
-								<section.icon
-									className={`w-8 h-8 mr-4 ${activeSection === section.id ? "text-cyan-400" : "text-[#9AFF27]"}`}
-								/>
+								<motion.div
+									whileHover={{ rotate: 360 }}
+									transition={{ duration: 0.6 }}
+								>
+									<section.icon
+										className={`w-8 h-8 mr-4 ${
+											activeSection === section.id
+												? "text-cyan-400"
+												: "text-[#9AFF27]"
+										}`}
+									/>
+								</motion.div>
 								<h2 className="text-2xl font-bold">{section.label}</h2>
 							</div>
 							<p className="text-lg leading-relaxed">{content[section.id]}</p>
-						</div>
+						</motion.div>
 					))}
-				</div>
-
-				{/* <div className="bg-gradient-to-r from-cyan-400 to-[#9AFF27] p-1 rounded-3xl transform hover:scale-105 transition-transform duration-300">
-					<div className="bg-[#0F0A0A] rounded-3xl p-8 relative overflow-hidden">
-						<div className="absolute inset-0 bg-[url('/placeholder.svg?height=400&width=800')] opacity-10" />
-						<h2 className="relative z-10 mb-6 text-3xl font-bold text-center text-cyan-400">
-							Get in Touch
-						</h2>
-						<div className="relative z-10 grid grid-cols-1 gap-8 md:grid-cols-3">
-							<div className="flex items-center bg-[#1A1A1A] p-4 rounded-xl">
-								<Mail className="w-6 h-6 mr-4 text-[#9AFF27]" />
-								<a
-									href="mailto:contact@paradigmtech.club"
-									className="transition-colors hover:text-cyan-400"
-								>
-									contact@paradigmtech.club
-								</a>
-							</div>
-							<div className="flex items-center bg-[#1A1A1A] p-4 rounded-xl">
-								<Phone className="w-6 h-6 mr-4 text-[#9AFF27]" />
-								<a
-									href="tel:+1234567890"
-									className="transition-colors hover:text-cyan-400"
-								>
-									+1 (234) 567-890
-								</a>
-							</div>
-							<div className="flex items-center bg-[#1A1A1A] p-4 rounded-xl">
-								<MapPin className="w-6 h-6 mr-4 text-[#9AFF27]" />
-								<span>Mayoor School Noida</span>
-							</div>
-						</div>
-						<div className="relative z-10 flex justify-center mt-8 space-x-6">
-							<a
-								href="https://github.com/paradigm-tech"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="text-[#FCFCFC] hover:text-cyan-400 transition-colors"
-							>
-								<Github className="w-8 h-8" />
-							</a>
-							<a
-								href="https://linkedin.com/company/paradigm-tech"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="text-[#FCFCFC] hover:text-cyan-400 transition-colors"
-							>
-								<Linkedin className="w-8 h-8" />
-							</a>
-							<a
-								href="https://twitter.com/paradigm_tech"
-								target="_blank"
-								rel="noopener noreferrer"
-								className="text-[#FCFCFC] hover:text-cyan-400 transition-colors"
-							>
-								<Twitter className="w-8 h-8" />
-							</a>
-						</div>
-					</div>
-				</div> */}
+				</motion.div>
 			</div>
 		</section>
 	);
