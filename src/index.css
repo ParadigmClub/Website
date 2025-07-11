@@ -166,7 +166,7 @@ small {
 @media (min-width: 1024px) {
 	.custom-scrollbar::-webkit-scrollbar {
 		height: 8px;
-		width: 20px;
+		width: 8px;
 	}
 
 	.custom-scrollbar::-webkit-scrollbar-track {
@@ -189,4 +189,14 @@ small {
 			scrollbar-color: #00bcd4 #232e33;
 		}
 	}
+}
+.fade {
+	opacity: 0;
+	transform: translateY(10px);
+	transition: all 0.8s ease-out;
+}
+
+.fade.show {
+	opacity: 1;
+	transform: translateY(0);
 }

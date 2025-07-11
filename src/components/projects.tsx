@@ -59,6 +59,7 @@ export function Projects() {
 							<div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-[#9AFF27] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 							<div className="relative bg-[#0F0A0A] rounded-xl overflow-hidden">
 								<img
+									loading="lazy"
 									src={project.image}
 									alt={project.name}
 									width={600}

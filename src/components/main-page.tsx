@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import TheTeam from "../../public/theteam.png";
 import { motion } from "framer-motion";
 import {
@@ -14,20 +14,25 @@ import { teamMembers } from "./teamMembers";
 import { alumniMembers } from "./alumniMembers";
 
 export function MainPageComponent() {
-	const [currentWord, setCurrentWord] = useState(0);
-	const words = ["Do", "Dream"];
 	const [showAlumni, setShowAlumni] = useState(false);
 	const [showAllMembers, setShowAllMembers] = useState(false);
-
-	useEffect(() => {
-		const interval = setInterval(() => {
-			setCurrentWord((prev) => (prev + 1) % words.length);
-		}, 3000);
-		return () => clearInterval(interval);
-	}, []);
+	const [showAllAlumni] = useState(true);
 
 	return (
 		<div className="min-h-screen bg-[#0F0A0A] text-[#FCFCFC]">
+			{/* BOT2K25 Banner */}
+			<div className="bg-[#9AFF27] text-[#0F0A0A] py-2 px-4 text-center text-sm font-medium">
+				<span>BOT2K25 - Our Annual Tech Fest | July 30th, 2025 | </span>
+				<a
+					href="https://bot.paradigmclub.co"
+					target="_blank"
+					rel="noopener noreferrer"
+					className="font-bold underline hover:no-underline"
+				>
+					Register Now →
+				</a>
+			</div>
+
 			{/* Hero Section */}
 			<section className="relative flex items-center justify-center h-screen overflow-hidden">
 				<div className="absolute inset-0 z-0">
@@ -37,7 +42,7 @@ export function MainPageComponent() {
 								<div
 									// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 									key={i}
-									className="border-[0.5px] border-[#9AFF27]/10"
+									className="border-[0.2px] border-[#9AFF27]/10"
 								/>
 							))}
 						</div>
@@ -49,21 +54,9 @@ export function MainPageComponent() {
 					</h1>
 
 					<div className="flex items-center justify-center h-20 mb-8">
-						<span className="text-4xl font-light max-sm:text-3xl">
-							To dare is to &nbsp;
+						<span className="text-4xl italic font-light max-sm:text-3xl">
+							Audere Est Facere
 						</span>
-						<motion.p
-							key={currentWord}
-							initial={{ y: 20, opacity: 0 }}
-							animate={{ y: 0, opacity: 1 }}
-							exit={{ y: -20, opacity: 0 }}
-							transition={{ duration: 0.5 }}
-							className="text-4xl font-light"
-						>
-							<span className="pb-1 font-bold rounded-sm text-slate-50 bg-fuchsia-500">
-								&nbsp; {words[currentWord]} &nbsp;{" "}
-							</span>
-						</motion.p>
 					</div>
 					<div className="grid items-center justify-center grid-cols-2 gap-4 md:grid-cols-3 ">
 						<a
@@ -152,6 +145,7 @@ export function MainPageComponent() {
 									className="flex-shrink-0 w-80 bg-[#FCFCFC]/10 p-6 rounded-lg"
 								>
 									<img
+										loading="lazy"
 										src={achievement.image}
 										alt={achievement.title}
 										width={100}
@@ -238,17 +232,27 @@ export function MainPageComponent() {
 										!member.position.includes("President") &&
 										!member.position.includes("Head"),
 								)
-								.slice(0, showAllMembers ? undefined : 0)
+								.slice(
+									0,
+									showAlumni
+										? showAllAlumni
+											? undefined
+											: undefined
+										: showAllMembers
+											? undefined
+											: 0,
+								)
 								.map((member, index) => (
 									// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>
 									<TeamMemberCard key={index} member={member} />
 								))}
-							{!showAllMembers &&
-								(showAlumni ? alumniMembers : teamMembers).filter(
+							{!showAlumni &&
+								!showAllMembers &&
+								teamMembers.filter(
 									(member) =>
 										!member.position.includes("President") &&
 										!member.position.includes("Head"),
-								).length > 3 && (
+								).length > 0 && (
 									<div className="relative col-span-1 sm:col-span-2 md:col-span-4">
 										<div className="absolute inset-0 bg-gradient-to-t from-[#0F0A0A] to-transparent" />
 

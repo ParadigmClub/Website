@@ -15,7 +15,7 @@ export default function Footer() {
 								height={80}
 								className="rounded-lg"
 							/>
-							<span className="mx-auto  md:inline-block">X</span>
+							<span className="mx-auto md:inline-block">X</span>
 							<img
 								src="/logowhite.png"
 								alt="Paradigm Tech Club Logo"
@@ -82,10 +82,10 @@ export default function Footer() {
 							<div className="flex items-center space-x-4">
 								<Mail className="flex-shrink-0 w-6 h-6" />
 								<a
-									href="mailto:contact@paradigmtech.club"
+									href="mailto:contact@paradigmclub.co"
 									className="text-lg transition-colors "
 								>
-									contact@paradigmclub.tech
+									contact@paradigmclub.co
 								</a>
 							</div>
 						</div>
@@ -96,12 +96,12 @@ export default function Footer() {
 				<div className="mt-20 pt-8 border-t border-[#FCFCFC]/10">
 					<div className="flex flex-col items-center justify-between space-y-4 md:flex-row md:space-y-0">
 						<p className="text-sm text-[#FCFCFC]/60">
-							© 2024 Paradigm Club | All rights reserved
+							© 2025 Paradigm Club | All rights reserved
 						</p>
 						<div className="flex items-center space-x-2 text-sm text-[#FCFCFC]/60">
 							<span>Website crafted with ❤️ by </span>
 							<a
-								href="https://whirlxd.dev"
+								href="https://medhanshk.com"
 								target="_blank"
 								className="flex items-center text-cyan-400"
 								rel="noreferrer"

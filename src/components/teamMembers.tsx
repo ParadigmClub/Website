@@ -14,10 +14,11 @@ export const teamMembers = [
 		position: "President",
 		bio: "Lorem ipsum dolor sit amet, i forgot the rest of the lorem ipsum, so here's a placeholder text , also i like to ski with my buddy",
 		image: Medhansh,
-		website: "https://whirlxd.xyz",
+		website: "https://medhanshk.com",
 		github: "https://github.com/whirlxd",
 		twitter: "https://twitter.com/whirlxd",
 		insta: "https://instagram.com/whirlxd",
+		linkedin: "https://linkedin.com/in/medhanshkapoor",
 	},
 	{
 		name: "Ayaan Hashmi",
@@ -32,7 +33,9 @@ export const teamMembers = [
 		position: "Vice President",
 		bio: "God's Plan",
 		image: Vansh,
-		website: "https://whirlxd.xyz",
+		website: "https://www.behance.net/madebynoxious",
+		linkedin: "https://www.linkedin.com/in/vansh-bhardwaj-134a07239/",
+		github: "https://github.com/noxindeed",
 		insta: "https://www.instagram.com/vxnshb/",
 	},
 
