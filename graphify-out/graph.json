@@ -1,0 +1,316 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "tailwind.config.js",
+      "file_type": "code",
+      "source_file": "tailwind.config.js",
+      "source_location": "L1",
+      "id": "tailwind_config_js",
+      "community": 6,
+      "norm_label": "tailwind.config.js"
+    },
+    {
+      "label": "eslint.config.js",
+      "file_type": "code",
+      "source_file": "eslint.config.js",
+      "source_location": "L1",
+      "id": "eslint_config_js",
+      "community": 7,
+      "norm_label": "eslint.config.js"
+    },
+    {
+      "label": "vite.config.ts",
+      "file_type": "code",
+      "source_file": "vite.config.ts",
+      "source_location": "L1",
+      "id": "vite_config_ts",
+      "community": 8,
+      "norm_label": "vite.config.ts"
+    },
+    {
+      "label": "postcss.config.js",
+      "file_type": "code",
+      "source_file": "postcss.config.js",
+      "source_location": "L1",
+      "id": "postcss_config_js",
+      "community": 9,
+      "norm_label": "postcss.config.js"
+    },
+    {
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "src/App.tsx",
+      "source_location": "L1",
+      "id": "src_app_tsx",
+      "community": 2,
+      "norm_label": "app.tsx"
+    },
+    {
+      "label": "main.tsx",
+      "file_type": "code",
+      "source_file": "src/main.tsx",
+      "source_location": "L1",
+      "id": "src_main_tsx",
+      "community": 2,
+      "norm_label": "main.tsx"
+    },
+    {
+      "label": "vite-env.d.ts",
+      "file_type": "code",
+      "source_file": "src/vite-env.d.ts",
+      "source_location": "L1",
+      "id": "src_vite_env_d_ts",
+      "community": 10,
+      "norm_label": "vite-env.d.ts"
+    },
+    {
+      "label": "projects.tsx",
+      "file_type": "code",
+      "source_file": "src/components/projects.tsx",
+      "source_location": "L1",
+      "id": "src_components_projects_tsx",
+      "community": 5,
+      "norm_label": "projects.tsx"
+    },
+    {
+      "label": "getIcon()",
+      "file_type": "code",
+      "source_file": "src/components/projects.tsx",
+      "source_location": "L18",
+      "id": "projects_geticon",
+      "community": 5,
+      "norm_label": "geticon()"
+    },
+    {
+      "label": "alumniMembers.tsx",
+      "file_type": "code",
+      "source_file": "src/components/alumniMembers.tsx",
+      "source_location": "L1",
+      "id": "src_components_alumnimembers_tsx",
+      "community": 11,
+      "norm_label": "alumnimembers.tsx"
+    },
+    {
+      "label": "404.tsx",
+      "file_type": "code",
+      "source_file": "src/components/404.tsx",
+      "source_location": "L1",
+      "id": "src_components_404_tsx",
+      "community": 12,
+      "norm_label": "404.tsx"
+    },
+    {
+      "label": "achievements.tsx",
+      "file_type": "code",
+      "source_file": "src/components/achievements.tsx",
+      "source_location": "L1",
+      "id": "src_components_achievements_tsx",
+      "community": 13,
+      "norm_label": "achievements.tsx"
+    },
+    {
+      "label": "main-page.tsx",
+      "file_type": "code",
+      "source_file": "src/components/main-page.tsx",
+      "source_location": "L1",
+      "id": "src_components_main_page_tsx",
+      "community": 14,
+      "norm_label": "main-page.tsx"
+    },
+    {
+      "label": "membership.tsx",
+      "file_type": "code",
+      "source_file": "src/components/membership.tsx",
+      "source_location": "L1",
+      "id": "src_components_membership_tsx",
+      "community": 15,
+      "norm_label": "membership.tsx"
+    },
+    {
+      "label": "projectslist.tsx",
+      "file_type": "code",
+      "source_file": "src/components/projectslist.tsx",
+      "source_location": "L1",
+      "id": "src_components_projectslist_tsx",
+      "community": 16,
+      "norm_label": "projectslist.tsx"
+    },
+    {
+      "label": "footer.tsx",
+      "file_type": "code",
+      "source_file": "src/components/footer.tsx",
+      "source_location": "L1",
+      "id": "src_components_footer_tsx",
+      "community": 17,
+      "norm_label": "footer.tsx"
+    },
+    {
+      "label": "learn.tsx",
+      "file_type": "code",
+      "source_file": "src/components/learn.tsx",
+      "source_location": "L1",
+      "id": "src_components_learn_tsx",
+      "community": 18,
+      "norm_label": "learn.tsx"
+    },
+    {
+      "label": "teamMembers.tsx",
+      "file_type": "code",
+      "source_file": "src/components/teamMembers.tsx",
+      "source_location": "L1",
+      "id": "src_components_teammembers_tsx",
+      "community": 19,
+      "norm_label": "teammembers.tsx"
+    },
+    {
+      "label": "useScrollFade.jsx",
+      "file_type": "code",
+      "source_file": "src/hooks/useScrollFade.jsx",
+      "source_location": "L1",
+      "id": "src_hooks_usescrollfade_jsx",
+      "community": 4,
+      "norm_label": "usescrollfade.jsx"
+    },
+    {
+      "label": "useScrollFadeIn()",
+      "file_type": "code",
+      "source_file": "src/hooks/useScrollFade.jsx",
+      "source_location": "L3",
+      "id": "usescrollfade_usescrollfadein",
+      "community": 4,
+      "norm_label": "usescrollfadein()"
+    },
+    {
+      "label": "index.tsx",
+      "file_type": "code",
+      "source_file": "src/bot2k25/index.tsx",
+      "source_location": "L1",
+      "id": "src_bot2k25_index_tsx",
+      "community": 3,
+      "norm_label": "index.tsx"
+    },
+    {
+      "label": "Bot2k25Page()",
+      "file_type": "code",
+      "source_file": "src/bot2k25/index.tsx",
+      "source_location": "L3",
+      "id": "index_bot2k25page",
+      "community": 3,
+      "norm_label": "bot2k25page()"
+    },
+    {
+      "label": "RegistrationForm.tsx",
+      "file_type": "code",
+      "source_file": "src/bot2k25/RegistrationForm.tsx",
+      "source_location": "L1",
+      "id": "src_bot2k25_registrationform_tsx",
+      "community": 0,
+      "norm_label": "registrationform.tsx"
+    },
+    {
+      "label": "RegistrationForm()",
+      "file_type": "code",
+      "source_file": "src/bot2k25/RegistrationForm.tsx",
+      "source_location": "L1",
+      "id": "registrationform_registrationform",
+      "community": 0,
+      "norm_label": "registrationform()"
+    },
+    {
+      "label": "utils.ts",
+      "file_type": "code",
+      "source_file": "src/lib/utils.ts",
+      "source_location": "L1",
+      "id": "src_lib_utils_ts",
+      "community": 1,
+      "norm_label": "utils.ts"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "src/lib/utils.ts",
+      "source_location": "L4",
+      "id": "utils_cn",
+      "community": 1,
+      "norm_label": "cn()"
+    }
+  ],
+  "links": [
+    {
+      "relation": "imports_from",
+      "confidence": "EXTRACTED",
+      "source_file": "src/main.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "src_main_tsx",
+      "_tgt": "src_app_tsx",
+      "source": "src_app_tsx",
+      "target": "src_main_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/components/projects.tsx",
+      "source_location": "L18",
+      "weight": 1.0,
+      "_src": "src_components_projects_tsx",
+      "_tgt": "projects_geticon",
+      "source": "src_components_projects_tsx",
+      "target": "projects_geticon",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/hooks/useScrollFade.jsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "src_hooks_usescrollfade_jsx",
+      "_tgt": "usescrollfade_usescrollfadein",
+      "source": "src_hooks_usescrollfade_jsx",
+      "target": "usescrollfade_usescrollfadein",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot2k25/index.tsx",
+      "source_location": "L3",
+      "weight": 1.0,
+      "_src": "src_bot2k25_index_tsx",
+      "_tgt": "index_bot2k25page",
+      "source": "src_bot2k25_index_tsx",
+      "target": "index_bot2k25page",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/bot2k25/RegistrationForm.tsx",
+      "source_location": "L1",
+      "weight": 1.0,
+      "_src": "src_bot2k25_registrationform_tsx",
+      "_tgt": "registrationform_registrationform",
+      "source": "src_bot2k25_registrationform_tsx",
+      "target": "registrationform_registrationform",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "src/lib/utils.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "src_lib_utils_ts",
+      "_tgt": "utils_cn",
+      "source": "src_lib_utils_ts",
+      "target": "utils_cn",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}
