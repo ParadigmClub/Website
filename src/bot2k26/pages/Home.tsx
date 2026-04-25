@@ -114,7 +114,7 @@ export function Home() {
 				<img src="./assets/logo.svg" alt="Paradigm" className="bot-hero-logo" />
 				<h1 className="bot-hero-title">
 					<span className="bot-display line1">Battle</span>
-					<span className="bot-display line2">Of Titans</span>
+					<span className="bot-display cursive line2">Of Titans</span>
 				</h1>
 				<p className="bot-hero-year">2026</p>
 				<p className="bot-hero-subtitle">{siteMeta.subtitle}</p>
