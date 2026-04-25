@@ -3,6 +3,7 @@ import { MapPin, Mail, Phone, Instagram, ExternalLink } from "lucide-react";
 export function Footer() {
 	return (
 		<footer className="bg-[#121212] text-[#FFFFFF] border-t border-[#009E41]/20 mt-12 relative overflow-hidden">
+			<div className="absolute inset-0 bg-[url('/footerbg.png')] bg-cover bg-center opacity-40 mix-blend-overlay" />
 			<div className="container relative z-10 px-8 py-20 mx-auto max-w-[1200px]">
 				<div className="grid grid-cols-1 gap-16 md:grid-cols-2 lg:gap-32">
 					
