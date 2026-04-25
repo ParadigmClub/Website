@@ -121,7 +121,7 @@ export function Home() {
 				<p className="bot-hero-subtitle">{siteMeta.subtitle}</p>
 				<p className="bot-hero-date">{siteMeta.dates}</p>
 
-				<div className="absolute bottom-4 left-0 right-0 flex justify-center cursor-pointer text-cyan-400 opacity-80 hover:opacity-100 transition-opacity z-50" onClick={() => document.querySelector('.bot-grid-section')?.scrollIntoView({ behavior: 'smooth' })}>
+				<div className="!absolute bottom-4 left-0 right-0 flex justify-center cursor-pointer text-cyan-400 opacity-80 hover:opacity-100 transition-opacity z-50" onClick={() => document.querySelector('.bot-grid-section')?.scrollIntoView({ behavior: 'smooth' })}>
 					<div className="animate-bounce">
 						<ChevronDown className="w-10 h-10" strokeWidth={2} />
 					</div>
