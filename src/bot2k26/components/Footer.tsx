@@ -63,8 +63,8 @@ export function Footer() {
 								<div className="flex items-center space-x-4 text-[#FCFCFC]/90">
 									<Phone className="flex-shrink-0 w-5 h-5" />
 									<div className="flex flex-col">
-										<p className="text-[15px]">+91 97172 91341</p>
-										<p className="text-xs text-[#FCFCFC]/60">(Medhansh Kapoor - President)</p>
+										<p className="text-[15px]">+91 74286 81717</p>
+										<p className="text-xs text-[#FCFCFC]/60">(Palash Shukla - President)</p>
 									</div>
 								</div>
 							</div>
@@ -101,14 +101,14 @@ export function Footer() {
 							© 2025 Paradigm Club | All rights reserved
 						</p>
 						<div className="flex items-center space-x-1.5 text-xs text-[#FCFCFC]/70">
-							<span>Website crafted with ❤️ by</span>
+							<span>Website made with &lt;3 by</span>
 							<a
-								href="https://medhanshk.com"
+								href="https://github.com/frostbyte8909"
 								target="_blank"
 								className="flex items-center text-[#00E5FF] hover:text-[#00b3cc] transition-colors font-medium ml-1"
 								rel="noreferrer"
 							>
-								Medhansh
+								Palash
 								<ExternalLink className="w-3 h-3 ml-1" />
 							</a>
 						</div>
