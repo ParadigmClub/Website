@@ -1,5 +1,6 @@
 import { useEffect, useRef, useCallback, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { ChevronDown } from "lucide-react";
 import { events, siteMeta, type Event } from "../data";
 
 const PlaceholderIcon = () => (
@@ -119,6 +120,11 @@ export function Home() {
 				<p className="bot-hero-year">2026</p>
 				<p className="bot-hero-subtitle">{siteMeta.subtitle}</p>
 				<p className="bot-hero-date">{siteMeta.dates}</p>
+				
+				<div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce opacity-50 flex flex-col items-center gap-2 cursor-pointer" onClick={() => document.querySelector('.bot-grid-section')?.scrollIntoView({ behavior: 'smooth' })}>
+					<span className="text-xs tracking-widest uppercase">Explore</span>
+					<ChevronDown className="w-6 h-6" />
+				</div>
 			</section>
 
 			{/* Event grid — second section */}

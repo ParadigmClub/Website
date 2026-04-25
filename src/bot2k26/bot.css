@@ -261,9 +261,10 @@
 	pointer-events: none;
 }
 .bot-card:hover {
-	border-color: rgba(0, 158, 65, 0.2);
-	box-shadow: 0 4px 40px var(--accent-glow);
-	transform: translateY(-3px);
+	border-color: transparent;
+	box-shadow: 0 0 0 2px var(--accent), 0 0 20px var(--accent-glow-strong);
+	transform: translateY(-3px) scale(1.02);
+	z-index: 10;
 }
 .bot-card:hover::after {
 	opacity: 1;
@@ -444,8 +445,9 @@
 }
 .bot-btn.primary:hover {
 	background: #00b34a;
-	border-color: #00b34a;
-	transform: translateY(-2px);
+	border-color: transparent;
+	transform: translateY(-2px) scale(1.05);
+	box-shadow: 0 0 0 2px var(--accent), 0 0 15px var(--accent-glow-strong);
 }
 
 /* ========== PAGE LAYOUT ========== */
