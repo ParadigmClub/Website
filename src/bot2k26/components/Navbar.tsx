@@ -29,7 +29,7 @@ export function Navbar() {
 	return (
 		<nav className={`bot-nav ${visible ? "visible" : ""}`}>
 			<Link to="/bot2k26">
-				<img src="./assets/logo.svg" alt="Paradigm" className="bot-nav-logo" />
+				<img src="/logowhite.png" alt="Paradigm" className="bot-nav-logo" />
 			</Link>
 			<ul className="bot-nav-links">
 				<li><Link to="/bot2k26" className={active("/bot2k26") ? "active" : ""}>Home</Link></li>

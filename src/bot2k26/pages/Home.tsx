@@ -112,7 +112,7 @@ export function Home() {
 			{/* Hero — full viewport */}
 			<section className="bot-hero bot-noise">
 				<div id="bot-hero-sentinel" style={{ position: "absolute", top: 0, width: 1, height: 1 }} />
-				<img src="./assets/logo.svg" alt="Paradigm" className="bot-hero-logo select-none pointer-events-none" />
+				<img src="/logowhite.png" alt="Paradigm" className="bot-hero-logo select-none pointer-events-none" />
 				<h1 className="bot-hero-title select-none">
 					<span className="bot-display line1">Battle</span>
 					<span className="bot-display cursive line2">Of Titans</span>
