@@ -9,7 +9,6 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
 		alias: {
-			// @ts-expect-error: I dont have time
 			"@": path.resolve(__dirname, "./src"),
 		},
 	},

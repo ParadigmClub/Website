@@ -24,7 +24,7 @@ function App() {
 		<Router>
 			<Routes>
 				<Route path="/" element={<HomePage />} />
-				<Route path="/bot2k25" element={<Bot2k25Page />} />
+				<Route path="/bot2k25/*" element={<Bot2k25Page />} />
 				<Route path="*" element={<NotFoundPage />} />
 			</Routes>
 		</Router>
