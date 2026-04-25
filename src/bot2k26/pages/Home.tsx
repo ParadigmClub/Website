@@ -112,14 +112,14 @@ export function Home() {
 			{/* Hero — full viewport */}
 			<section className="bot-hero bot-noise">
 				<div id="bot-hero-sentinel" style={{ position: "absolute", top: 0, width: 1, height: 1 }} />
-				<img src="./assets/logo.svg" alt="Paradigm" className="bot-hero-logo" />
-				<h1 className="bot-hero-title">
+				<img src="./assets/logo.svg" alt="Paradigm" className="bot-hero-logo select-none pointer-events-none" />
+				<h1 className="bot-hero-title select-none">
 					<span className="bot-display line1">Battle</span>
 					<span className="bot-display cursive line2">Of Titans</span>
 				</h1>
-				<p className="bot-hero-year">2026</p>
-				<p className="bot-hero-subtitle">{siteMeta.subtitle}</p>
-				<p className="bot-hero-date">{siteMeta.dates}</p>
+				<p className="bot-hero-year select-none">2026</p>
+				<p className="bot-hero-subtitle select-none">{siteMeta.subtitle}</p>
+				<p className="bot-hero-date select-none">{siteMeta.dates}</p>
 
 				<div className="!absolute bottom-4 left-0 right-0 flex justify-center cursor-pointer text-cyan-400 opacity-80 hover:opacity-100 transition-opacity z-50" onClick={() => document.querySelector('.bot-grid-section')?.scrollIntoView({ behavior: 'smooth' })}>
 					<div className="animate-bounce">
