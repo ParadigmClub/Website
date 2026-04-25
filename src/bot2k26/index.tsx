@@ -7,16 +7,18 @@ import { Resources } from "./pages/Resources";
 import { Team } from "./pages/Team";
 import "./bot.css";
 
-export function Bot2k25Page() {
+export function Bot2k26Page() {
 	return (
 		<div className="bot-root">
 			<Navbar />
-			<Routes>
-				<Route index element={<Home />} />
-				<Route path="register" element={<Register />} />
-				<Route path="resources" element={<Resources />} />
-				<Route path="team" element={<Team />} />
-			</Routes>
+			<main>
+				<Routes>
+					<Route index element={<Home />} />
+					<Route path="register" element={<Register />} />
+					<Route path="resources" element={<Resources />} />
+					<Route path="team" element={<Team />} />
+				</Routes>
+			</main>
 			<Footer />
 		</div>
 	);

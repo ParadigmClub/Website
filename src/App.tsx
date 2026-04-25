@@ -5,7 +5,7 @@ import { Projects } from "./components/projects";
 import { Membership } from "./components/membership";
 import { NotFoundPage } from "./components/404";
 import Footer from "./components/footer";
-import { Bot2k25Page } from "./bot2k25";
+import { Bot2k26Page } from "./bot2k26";
 
 function HomePage() {
 	return (
@@ -24,7 +24,7 @@ function App() {
 		<Router>
 			<Routes>
 				<Route path="/" element={<HomePage />} />
-				<Route path="/bot2k25/*" element={<Bot2k25Page />} />
+				<Route path="/bot2k26/*" element={<Bot2k26Page />} />
 				<Route path="*" element={<NotFoundPage />} />
 			</Routes>
 		</Router>
