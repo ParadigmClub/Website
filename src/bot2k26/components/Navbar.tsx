@@ -14,7 +14,7 @@ export function Navbar() {
 
 		const observer = new IntersectionObserver(
 			([entry]) => setVisible(!entry.isIntersecting),
-			{ threshold: 0.05 }
+			{ root: document.querySelector('.bot-root'), threshold: 0.05 }
 		);
 		const el = document.getElementById("bot-hero-sentinel");
 		if (el) observer.observe(el);

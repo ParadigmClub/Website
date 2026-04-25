@@ -1,11 +1,10 @@
-# Graph Report - website  (2026-04-25)
+# Graph Report - .  (2026-04-25)
 
 ## Corpus Check
-- 21 files · ~1,999,617 words
-- Verdict: corpus is large enough that graph structure adds value.
+- Large corpus: 55 files · ~2,003,933 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.
 
 ## Summary
-- 26 nodes · 6 edges · 0 communities detected
+- 36 nodes · 10 edges · 0 communities detected
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 

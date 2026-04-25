@@ -23,7 +23,7 @@ function EventCard({ event, index, onSelect }: { event: Event; index: number; on
 					obs.unobserve(el);
 				}
 			},
-			{ threshold: 0.1 }
+			{ root: document.querySelector('.bot-root'), threshold: 0.1 }
 		);
 		obs.observe(el);
 		return () => obs.disconnect();

@@ -1,0 +1,129 @@
+{
+  "communities": {
+    "0": [
+      "home_eventcard",
+      "home_placeholdericon",
+      "src_bot2k26_pages_home_tsx"
+    ],
+    "1": [
+      "src_app_tsx",
+      "src_main_tsx"
+    ],
+    "2": [
+      "index_bot2k26page",
+      "src_bot2k26_index_tsx"
+    ],
+    "3": [
+      "navbar_navbar",
+      "src_bot2k26_components_navbar_tsx"
+    ],
+    "4": [
+      "footer_footer",
+      "src_bot2k26_components_footer_tsx"
+    ],
+    "5": [
+      "src_bot2k26_pages_team_tsx",
+      "team_avatarplaceholder"
+    ],
+    "6": [
+      "projects_geticon",
+      "src_components_projects_tsx"
+    ],
+    "7": [
+      "src_hooks_usescrollfade_jsx",
+      "usescrollfade_usescrollfadein"
+    ],
+    "8": [
+      "src_lib_utils_ts",
+      "utils_cn"
+    ],
+    "9": [
+      "tailwind_config_js"
+    ],
+    "10": [
+      "eslint_config_js"
+    ],
+    "11": [
+      "vite_config_ts"
+    ],
+    "12": [
+      "postcss_config_js"
+    ],
+    "13": [
+      "src_vite_env_d_ts"
+    ],
+    "14": [
+      "src_bot2k26_data_ts"
+    ],
+    "15": [
+      "src_bot2k26_pages_register_tsx"
+    ],
+    "16": [
+      "src_bot2k26_pages_resources_tsx"
+    ],
+    "17": [
+      "src_components_alumnimembers_tsx"
+    ],
+    "18": [
+      "src_components_404_tsx"
+    ],
+    "19": [
+      "src_components_achievements_tsx"
+    ],
+    "20": [
+      "src_components_main_page_tsx"
+    ],
+    "21": [
+      "src_components_membership_tsx"
+    ],
+    "22": [
+      "src_components_projectslist_tsx"
+    ],
+    "23": [
+      "src_components_footer_tsx"
+    ],
+    "24": [
+      "src_components_learn_tsx"
+    ],
+    "25": [
+      "src_components_teammembers_tsx"
+    ]
+  },
+  "cohesion": {
+    "0": 0.67,
+    "1": 1.0,
+    "2": 1.0,
+    "3": 1.0,
+    "4": 1.0,
+    "5": 1.0,
+    "6": 1.0,
+    "7": 1.0,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0,
+    "18": 1.0,
+    "19": 1.0,
+    "20": 1.0,
+    "21": 1.0,
+    "22": 1.0,
+    "23": 1.0,
+    "24": 1.0,
+    "25": 1.0
+  },
+  "gods": [],
+  "surprises": [],
+  "questions": [
+    {
+      "type": "no_signal",
+      "question": null,
+      "why": "Not enough signal to generate questions. This usually means the corpus has no AMBIGUOUS edges, no bridge nodes, no INFERRED relationships, and all communities are tightly cohesive. Add more files or run with --mode deep to extract richer edges."
+    }
+  ]
+}

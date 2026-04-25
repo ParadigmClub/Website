@@ -17,28 +17,17 @@
 	color: var(--fg);
 	font-family: var(--font-body);
 	width: 100%;
-	min-height: 100vh;
+	height: 100vh;
 	position: relative;
+	overflow-y: scroll;
 	overflow-x: hidden;
 	overscroll-behavior: none;
+	scrollbar-width: none; /* Firefox */
+	-ms-overflow-style: none; /* IE/Edge */
 }
 
-/* hide scrollbar on browser level while keeping scroll functional */
-html:has(.bot-root) {
-	scrollbar-width: none;
-	-ms-overflow-style: none;
-	overscroll-behavior: none;
-}
-html:has(.bot-root)::-webkit-scrollbar {
-	display: none;
-}
-html:has(.bot-root) body {
-	overflow-y: scroll;
-	scrollbar-width: none;
-	-ms-overflow-style: none;
-}
-html:has(.bot-root) body::-webkit-scrollbar {
-	display: none;
+.bot-root::-webkit-scrollbar {
+	display: none; /* Chrome/Safari/Webkit */
 }
 
 /* focus a11y */
