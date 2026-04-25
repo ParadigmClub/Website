@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /* ========== ROOT ========== */
 .bot-root {
@@ -11,7 +11,6 @@
 	--accent-glow: rgba(0, 158, 65, 0.12);
 	--accent-glow-strong: rgba(0, 158, 65, 0.25);
 	--font-display: 'Montserrat', sans-serif;
-	--font-accent: 'Playfair Display', serif;
 	--font-body: 'Montserrat', sans-serif;
 
 	background: var(--bg);
@@ -24,14 +23,21 @@
 	overscroll-behavior: none;
 }
 
-/* hide scrollbar */
-.bot-root,
-.bot-root * {
+/* hide scrollbar on browser level while keeping scroll functional */
+html:has(.bot-root) {
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+	overscroll-behavior: none;
+}
+html:has(.bot-root)::-webkit-scrollbar {
+	display: none;
+}
+html:has(.bot-root) body {
+	overflow-y: scroll;
 	scrollbar-width: none;
 	-ms-overflow-style: none;
 }
-.bot-root::-webkit-scrollbar,
-.bot-root *::-webkit-scrollbar {
+html:has(.bot-root) body::-webkit-scrollbar {
 	display: none;
 }
 
@@ -67,14 +73,6 @@
 	font-weight: 900;
 	text-transform: uppercase;
 	letter-spacing: 0.05em;
-	line-height: 1;
-}
-
-.bot-accent-text {
-	font-family: var(--font-accent);
-	font-weight: 400;
-	font-style: italic;
-	letter-spacing: 0.02em;
 	line-height: 1;
 }
 
@@ -178,19 +176,19 @@
 }
 
 .bot-hero-year {
-	font-family: var(--font-accent);
-	font-style: italic;
-	font-weight: 400;
+	font-family: var(--font-display);
+	font-weight: 700;
 	font-size: clamp(1.2rem, 2.5vw, 1.8rem);
-	color: var(--fg-muted);
-	letter-spacing: 0.15em;
-	margin-top: 1.5rem;
+	color: var(--accent);
+	letter-spacing: 0.2em;
+	margin-top: 0.5rem;
+	text-transform: uppercase;
 }
 
 .bot-hero-subtitle {
 	font-size: clamp(0.7rem, 1.2vw, 0.9rem);
-	color: var(--fg-muted);
-	margin-top: 0.75rem;
+	color: var(--accent);
+	margin-top: 0.4rem;
 	font-weight: 500;
 	letter-spacing: 0.18em;
 	text-transform: uppercase;
@@ -233,7 +231,7 @@
 .bot-event-grid {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
-	grid-auto-rows: 200px;
+	grid-auto-rows: minmax(180px, auto);
 	gap: 12px;
 }
 
