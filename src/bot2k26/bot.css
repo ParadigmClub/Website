@@ -2,18 +2,19 @@
 
 /* ========== ROOT ========== */
 .bot-root {
-	--bg: #000000;
-	--bg-surface: #0d0d0d;
-	--bg-surface-hover: #161616;
-	--fg: #FFFFFF;
-	--fg-muted: #888888;
+	--bg-start: #0F0A0A;
+	--bg-end: #1A1A1A;
+	--bg-surface: rgba(26, 26, 26, 0.5);
+	--bg-surface-hover: rgba(38, 38, 38, 0.8);
+	--fg: #FCFCFC;
+	--fg-muted: rgba(252, 252, 252, 0.6);
 	--accent: #009E41;
 	--accent-glow: rgba(0, 158, 65, 0.12);
 	--accent-glow-strong: rgba(0, 158, 65, 0.25);
-	--font-display: 'Montserrat', sans-serif;
-	--font-body: 'Montserrat', sans-serif;
+	--font-display: 'Plus Jakarta Sans', sans-serif;
+	--font-body: 'Plus Jakarta Sans', sans-serif;
 
-	background: var(--bg);
+	background: linear-gradient(to bottom right, var(--bg-start), var(--bg-end));
 	color: var(--fg);
 	font-family: var(--font-body);
 	width: 100%;
@@ -345,7 +346,7 @@
 .bot-expanded {
 	background: var(--bg-surface);
 	border: 1px solid rgba(0, 158, 65, 0.12);
-	border-radius: 6px;
+	border-radius: 1rem;
 	padding: 2.5rem;
 	max-width: 500px;
 	width: 90vw;
@@ -366,7 +367,7 @@
 	color: var(--fg);
 	width: 30px;
 	height: 30px;
-	border-radius: 3px;
+	border-radius: 0.5rem;
 	cursor: pointer;
 	display: flex;
 	align-items: center;
@@ -404,34 +405,36 @@
 	gap: 0.6rem;
 }
 
+/* ========== BUTTONS ========== */
 .bot-btn {
 	background: transparent;
-	border: 1px solid rgba(255, 255, 255, 0.08);
+	border: 1px solid var(--fg);
 	color: var(--fg);
-	padding: 0.7rem 1rem;
-	border-radius: 3px;
 	font-family: var(--font-body);
-	font-size: 0.72rem;
-	font-weight: 700;
-	letter-spacing: 0.08em;
-	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 0.9rem;
+	padding: 0.8rem 2rem;
 	cursor: pointer;
-	text-decoration: none;
-	text-align: center;
-	display: block;
-	transition: border-color 0.2s, background 0.2s;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	transition: all 0.3s;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 0.5rem;
 }
 .bot-btn:hover {
-	border-color: var(--accent);
-	background: var(--accent-glow);
+	background: rgba(255, 255, 255, 0.1);
 }
 .bot-btn.primary {
 	background: var(--accent);
 	border-color: var(--accent);
-	color: #fff;
+	color: #000;
 }
 .bot-btn.primary:hover {
 	background: #00b34a;
+	border-color: #00b34a;
+	transform: translateY(-2px);
 }
 
 /* ========== PAGE LAYOUT ========== */

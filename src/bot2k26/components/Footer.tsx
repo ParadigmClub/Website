@@ -31,7 +31,13 @@ export function Footer() {
 							</div>
 						</div>
 						<p className="text-base leading-relaxed text-[#FCFCFC]/80">
-							Paradigm is a Hack Club affiliated club at Mayoor School, Noida.
+							Paradigm established in 2011 is a tech club that aims to provide a
+							platform for students to explore and learn about the latest
+							technologies. We also provide mentorship and guidance to students
+							who are interested in pursuing a career in technology. Our goal is
+							to create a community of tech enthusiasts who are passionate about
+							learning and sharing their knowledge with others. We are also an
+							official club of Hack Club.
 						</p>
 					</div>
 
