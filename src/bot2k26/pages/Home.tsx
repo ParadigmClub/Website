@@ -120,10 +120,10 @@ export function Home() {
 				<p className="bot-hero-year">2026</p>
 				<p className="bot-hero-subtitle">{siteMeta.subtitle}</p>
 				<p className="bot-hero-date">{siteMeta.dates}</p>
-				
-				<div className="absolute bottom-6 left-0 right-0 flex justify-center cursor-pointer text-cyan-400 opacity-80 hover:opacity-100 transition-opacity" onClick={() => document.querySelector('.bot-grid-section')?.scrollIntoView({ behavior: 'smooth' })}>
+
+				<div className="absolute bottom-4 left-0 right-0 flex justify-center cursor-pointer text-cyan-400 opacity-80 hover:opacity-100 transition-opacity z-50" onClick={() => document.querySelector('.bot-grid-section')?.scrollIntoView({ behavior: 'smooth' })}>
 					<div className="animate-bounce">
-						<ChevronDown className="w-8 h-8" strokeWidth={2.5} />
+						<ChevronDown className="w-10 h-10" strokeWidth={2} />
 					</div>
 				</div>
 			</section>
