@@ -52,7 +52,7 @@ export function MainPageComponent() {
 			>
 				<span>BOT2K25 - Our Annual Tech Fest | July 30th, 2025 | </span>
 				<a
-					href="https://bot.paradigmclub.co"
+					href="https://bot.paradigmclub.tech"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="font-bold underline hover:no-underline"
@@ -292,9 +292,8 @@ export function MainPageComponent() {
 						<button
 							type="button"
 							onClick={() => setShowAlumni(false)}
-							className={`px-6 py-2 rounded-l-2xl ${
-								!showAlumni ? "bg-[#9AFF27] text-[#0F0A0A]" : "bg-[#FCFCFC]/10"
-							}`}
+							className={`px-6 py-2 rounded-l-2xl ${!showAlumni ? "bg-[#9AFF27] text-[#0F0A0A]" : "bg-[#FCFCFC]/10"
+								}`}
 						>
 							Current Team
 						</button>
@@ -302,9 +301,8 @@ export function MainPageComponent() {
 						<button
 							type="button"
 							onClick={() => setShowAlumni(true)}
-							className={`px-6 py-2 rounded-r-2xl ${
-								showAlumni ? "bg-[#9AFF27] text-[#0F0A0A]" : "bg-[#FCFCFC]/10"
-							}`}
+							className={`px-6 py-2 rounded-r-2xl ${showAlumni ? "bg-[#9AFF27] text-[#0F0A0A]" : "bg-[#FCFCFC]/10"
+								}`}
 						>
 							Alumni
 						</button>

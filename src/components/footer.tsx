@@ -82,10 +82,10 @@ export default function Footer() {
 							<div className="flex items-center space-x-4">
 								<Mail className="flex-shrink-0 w-6 h-6" />
 								<a
-									href="mailto:contact@paradigmclub.co"
+									href="mailto:contact@paradigmclub.tech"
 									className="text-lg transition-colors"
 								>
-									contact@paradigmclub.co
+									contact@paradigmclub.tech
 								</a>
 							</div>
 						</div>
