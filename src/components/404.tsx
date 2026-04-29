@@ -96,7 +96,7 @@ export function NotFoundPage() {
 							Our Team
 						</a>
 						<a
-							href="https://bot.paradigmclub.co"
+							href="https://bot.paradigmclub.tech"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="text-[#FCFCFC]/80 hover:text-[#9AFF27] transition-colors underline-offset-4 hover:underline"
