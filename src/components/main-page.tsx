@@ -52,7 +52,7 @@ export function MainPageComponent() {
 			>
 				<span>BOT2K25 - Our Annual Tech Fest | July 30th, 2025 | </span>
 				<a
-					href="https://bot.paradigmclub.co"
+					href="https://bot.paradigmclub.tech"
 					target="_blank"
 					rel="noopener noreferrer"
 					className="font-bold underline hover:no-underline"
