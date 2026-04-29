@@ -68,6 +68,14 @@ We welcome contributions from the community! To contribute:
 5. Push to the branch (`git push origin feature/your-feature-name`).
 6. Open a pull request.
 
+## Maintenance Log
+
+- **2026-04-29**: Migrated domain from `paradigmclub.co` to `paradigmclub.tech`. 
+  - Updated contact email links in `footer.tsx` and `404.tsx`.
+  - Updated `bot` subdomain links in `main-page.tsx` and `404.tsx`.
+  - Added `CNAME` for custom domain support.
+  - Cleaned up experimental files and documentation.
+
 ## License
 
 This project is licensed under the GNU AGPL 3.0 License. See the [LICENSE](LICENSE) file for details.
